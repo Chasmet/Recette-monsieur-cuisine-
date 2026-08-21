@@ -10,7 +10,7 @@ public final class FeaturedMeatImages {
     private FeaturedMeatImages() {}
 
     public static boolean load(Context context, ImageView view, Recipe recipe) {
-        int slot = slotFor(recipe.title);
+        int slot = slotFor(recipe);
         if (slot < 0) return false;
         try (InputStream in = context.getAssets().open("featured/meat_sprite.jpg")) {
             Bitmap sheet = BitmapFactory.decodeStream(in);
@@ -23,19 +23,19 @@ public final class FeaturedMeatImages {
             view.setImageBitmap(crop);
             view.setScaleType(ImageView.ScaleType.CENTER_CROP);
             return true;
-        } catch (Exception ignored) {
-            return false;
-        }
+        } catch (Exception ignored) { return false; }
     }
 
-    private static int slotFor(String title) {
-        String t = title == null ? "" : title.toLowerCase();
-        if (t.contains("poulet") && (t.contains("légume") || t.contains("legume"))) return 0;
-        if (t.contains("bourguignon") || (t.contains("boeuf") && t.contains("carotte"))) return 1;
-        if (t.contains("dinde")) return 2;
-        if (t.contains("porc") || t.contains("filet mignon")) return 3;
+    private static int slotFor(Recipe recipe) {
+        StringBuilder source = new StringBuilder(recipe.title == null ? "" : recipe.title.toLowerCase());
+        for (Recipe.Ingredient ingredient : recipe.ingredients) source.append(' ').append(ingredient.name == null ? "" : ingredient.name.toLowerCase());
+        String t = source.toString();
         if (t.contains("veau")) return 4;
         if (t.contains("agneau") || t.contains("mouton")) return 5;
+        if (t.contains("dinde") || t.contains("pintade")) return 2;
+        if (t.contains("porc") || t.contains("filet mignon") || t.contains("jambon") || t.contains("saucisse") || t.contains("merguez")) return 3;
+        if (t.contains("boeuf") || t.contains("bœuf") || t.contains("steak") || t.contains("viande hachée") || t.contains("viande hachee")) return 1;
+        if (t.contains("poulet") || t.contains("canard") || t.contains("lapin")) return 0;
         return -1;
     }
 }
