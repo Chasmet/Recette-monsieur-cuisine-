@@ -33,21 +33,27 @@ jobs:
         run: python3 tools/clean_duplicates.py
       - name: Prepare and import VRAC illustrations
         run: python3 tools/prepare_vrac.py
+      - name: Generate missing recipe illustrations
+        run: python3 tools/generate_recipe_illustrations.py
       - name: Generate Gradle wrapper
         run: gradle wrapper --gradle-version 8.7
       - name: Make wrapper executable
         run: chmod +x gradlew
       - name: Build real debug APK
         run: ./gradlew assembleDebug --stacktrace
-      - name: Persist clean catalogue after successful build
-        if: github.event_name == 'pull_request'
+      - name: Persist catalogue and illustrations after successful build
+        if: github.event_name == 'push' || github.event_name == 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A app/src/main/assets/recipes VRAC/LISTE_IMAGES.txt
+          git add -A app/src/main/assets/recipes VRAC/*.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Nettoie les doublons et régénère le catalogue [skip ci]"
-            git push origin HEAD:"${GITHUB_HEAD_REF}"
+            git commit -m "Intègre les illustrations des recettes [skip ci]"
+            if [ "${{ github.event_name }}" = "pull_request" ]; then
+              git push origin HEAD:"${GITHUB_HEAD_REF}"
+            else
+              git push origin HEAD:main
+            fi
           fi
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
