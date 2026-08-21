@@ -33,6 +33,8 @@ jobs:
         run: python3 tools/expand_catalog.py
       - name: Remove duplicate recipes
         run: python3 tools/clean_duplicates.py
+      - name: Enrich every generic recipe
+        run: python3 tools/enrich_recipe_guidance.py
       - name: Prepare and import VRAC illustrations
         run: python3 tools/prepare_vrac.py
       - name: Generate missing PNG illustrations
@@ -43,14 +45,14 @@ jobs:
         run: chmod +x gradlew
       - name: Build real debug APK
         run: ./gradlew assembleDebug --stacktrace
-      - name: Persist catalogue and illustrations after successful build
+      - name: Persist enriched catalogue and illustrations after successful build
         if: github.event_name == 'push' || github.event_name == 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A app/src/main/assets/recipes VRAC/*.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Intègre les vraies illustrations PNG [skip ci]"
+            git commit -m "Enrichit les recettes et illustrations [skip ci]"
             if [ "${{ github.event_name }}" = "pull_request" ]; then
               git push origin HEAD:"${GITHUB_HEAD_REF}"
             else
