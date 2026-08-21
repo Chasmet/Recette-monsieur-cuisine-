@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import java.text.Normalizer;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
@@ -27,10 +28,14 @@ public class MainActivity extends Activity {
     private LinearLayout categoryFilters;
     private LinearLayout recipeContainer;
     private TextView resultCount;
+    private TextView catalogInfo;
     private EditText search;
+    private Button tabSelection;
+    private Button tabComplete;
     private String selectedCountry = "all";
     private String selectedCategory = "all";
     private boolean favoritesOnly = false;
+    private boolean completeMode = false;
     private SharedPreferences prefs;
 
     @Override
@@ -43,11 +48,26 @@ public class MainActivity extends Activity {
         categoryFilters = findViewById(R.id.categoryFilters);
         recipeContainer = findViewById(R.id.recipeContainer);
         resultCount = findViewById(R.id.resultCount);
+        catalogInfo = findViewById(R.id.catalogInfo);
         search = findViewById(R.id.search);
+        tabSelection = findViewById(R.id.tabSelection);
+        tabComplete = findViewById(R.id.tabComplete);
 
         allRecipes.addAll(RecipeRepository.loadAll(this));
         buildCountryFilters();
         buildCategoryFilters();
+
+        tabSelection.setOnClickListener(v -> {
+            completeMode = false;
+            refreshTabs();
+            renderRecipes();
+        });
+        tabComplete.setOnClickListener(v -> {
+            completeMode = true;
+            refreshTabs();
+            renderRecipes();
+        });
+        refreshTabs();
 
         search.addTextChangedListener(new TextWatcher() {
             @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
@@ -55,6 +75,16 @@ public class MainActivity extends Activity {
             @Override public void afterTextChanged(Editable s) {}
         });
         renderRecipes();
+    }
+
+    private void refreshTabs() {
+        Ui.setFilterSelected(tabSelection, !completeMode);
+        Ui.setFilterSelected(tabComplete, completeMode);
+        if (completeMode) {
+            catalogInfo.setText("Catalogue complet • " + allRecipes.size() + " recettes guidées disponibles");
+        } else {
+            catalogInfo.setText("Sélection intelligente • 25 recettes maximum par pays");
+        }
     }
 
     @Override
@@ -66,14 +96,9 @@ public class MainActivity extends Activity {
     private void buildCountryFilters() {
         countryFilters.removeAllViews();
         addCountryFilter("all", "🌍 Toutes");
-
         Map<String, String> countries = new LinkedHashMap<>();
-        for (Recipe recipe : allRecipes) {
-            countries.put(recipe.country, recipe.flag + " " + recipe.countryLabel);
-        }
-        for (Map.Entry<String, String> entry : countries.entrySet()) {
-            addCountryFilter(entry.getKey(), entry.getValue());
-        }
+        for (Recipe recipe : allRecipes) countries.put(recipe.country, recipe.flag + " " + recipe.countryLabel);
+        for (Map.Entry<String, String> entry : countries.entrySet()) addCountryFilter(entry.getKey(), entry.getValue());
 
         Button fav = Ui.filterButton(this, "★ Favoris");
         fav.setOnClickListener(v -> {
@@ -120,9 +145,7 @@ public class MainActivity extends Activity {
             selectedCategory = key;
             for (int i = 0; i < categoryFilters.getChildCount(); i++) {
                 View child = categoryFilters.getChildAt(i);
-                if (child instanceof Button) {
-                    Ui.setFilterSelected((Button) child, selectedCategory.equals(child.getTag()));
-                }
+                if (child instanceof Button) Ui.setFilterSelected((Button) child, selectedCategory.equals(child.getTag()));
             }
             renderRecipes();
         });
@@ -133,26 +156,30 @@ public class MainActivity extends Activity {
     private void renderRecipes() {
         recipeContainer.removeAllViews();
         String query = normalize(search.getText() == null ? "" : search.getText().toString());
-
         int shown = 0;
+        Map<String, Integer> countryShown = new HashMap<>();
+
         for (Recipe recipe : allRecipes) {
             if (!"all".equals(selectedCountry) && !selectedCountry.equals(recipe.country)) continue;
             if (!"all".equals(selectedCategory) && !selectedCategory.equals(recipe.category)) continue;
             if (favoritesOnly && !prefs.getBoolean("fav_" + recipe.id, false)) continue;
 
-            String searchable = normalize(recipe.title + " " + recipe.countryLabel + " " +
-                    recipe.categoryLabel + " " + recipe.description);
+            String searchable = normalize(recipe.title + " " + recipe.countryLabel + " " + recipe.categoryLabel + " " + recipe.description);
             if (!query.isEmpty() && !searchable.contains(query)) continue;
+
+            if (!completeMode && query.isEmpty() && !favoritesOnly) {
+                int n = countryShown.containsKey(recipe.country) ? countryShown.get(recipe.country) : 0;
+                if (n >= 25) continue;
+                countryShown.put(recipe.country, n + 1);
+            }
 
             addRecipeCard(recipe);
             shown++;
         }
 
-        resultCount.setText(shown + (shown > 1 ? " recettes" : " recette"));
+        resultCount.setText(shown + (shown > 1 ? " recettes affichées" : " recette affichée"));
         if (shown == 0) {
-            TextView empty = Ui.text(this,
-                    "Aucune recette avec ces filtres. Essaie un autre pays ou une autre catégorie.",
-                    16, false);
+            TextView empty = Ui.text(this, "Aucune recette avec ces filtres. Essaie un autre pays ou une autre catégorie.", 16, false);
             Ui.margin(empty, 4, 20, 4, 20);
             recipeContainer.addView(empty);
         }
@@ -163,13 +190,11 @@ public class MainActivity extends Activity {
         card.setOrientation(LinearLayout.VERTICAL);
         card.setBackgroundResource(R.drawable.bg_card);
         card.setPadding(Ui.dp(this, 16), Ui.dp(this, 16), Ui.dp(this, 16), Ui.dp(this, 16));
-        LinearLayout.LayoutParams cardParams = new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams cardParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         cardParams.setMargins(0, 0, 0, Ui.dp(this, 12));
         card.setLayoutParams(cardParams);
 
-        TextView overline = Ui.text(this, recipe.flag + " " + recipe.countryLabel + "  •  " +
-                recipe.categoryLabel, 13, true);
+        TextView overline = Ui.text(this, recipe.flag + " " + recipe.countryLabel + "  •  " + recipe.categoryLabel, 13, true);
         overline.setTextColor(Color.rgb(201, 71, 45));
         card.addView(overline);
 
@@ -177,8 +202,7 @@ public class MainActivity extends Activity {
         Ui.margin(name, 0, 7, 0, 0);
         card.addView(name);
 
-        String meta = "⏱ " + (recipe.prepMinutes + recipe.cookMinutes) + " min   •   " +
-                "👥 " + recipe.servings + "   •   " + recipe.difficulty;
+        String meta = "⏱ " + (recipe.prepMinutes + recipe.cookMinutes) + " min   •   👥 " + recipe.servings + "   •   " + recipe.difficulty;
         TextView metaView = Ui.text(this, meta, 14, false);
         metaView.setTextColor(Color.rgb(107, 98, 90));
         Ui.margin(metaView, 0, 8, 0, 0);
@@ -204,8 +228,7 @@ public class MainActivity extends Activity {
     }
 
     private static String normalize(String text) {
-        String normalized = Normalizer.normalize(text, Normalizer.Form.NFD)
-                .replaceAll("\\p{M}", "");
+        String normalized = Normalizer.normalize(text, Normalizer.Form.NFD).replaceAll("\\p{M}", "");
         return normalized.toLowerCase(Locale.ROOT).trim();
     }
 }

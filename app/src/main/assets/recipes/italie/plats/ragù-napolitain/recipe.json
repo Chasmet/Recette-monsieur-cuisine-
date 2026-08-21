@@ -1,0 +1,79 @@
+{
+  "id": "italie-plats-ragù-napolitain",
+  "title": "Ragù napolitain",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "difficulty": "Facile",
+  "description": "Ragù napolitain adapté à la cuisine guidée Monsieur Cuisine.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "250 g",
+      "name": "ingrédient principal"
+    },
+    {
+      "amount": "1",
+      "name": "oignon ou base aromatique"
+    },
+    {
+      "amount": "20 g",
+      "name": "huile ou matière grasse"
+    },
+    {
+      "amount": "300 ml",
+      "name": "liquide adapté"
+    },
+    {
+      "amount": "à ajuster",
+      "name": "sel et épices"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer",
+      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Hacher la base",
+      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
+      "durationSeconds": 8,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
+      "durationSeconds": 1200,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": "Adapter légèrement la durée selon la taille des morceaux."
+    },
+    {
+      "title": "Finaliser",
+      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}
