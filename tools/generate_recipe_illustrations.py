@@ -1,85 +1,94 @@
 #!/usr/bin/env python3
-import json, hashlib, html, re, unicodedata
+import json, re, unicodedata, hashlib
 from pathlib import Path
+from PIL import Image, ImageDraw, ImageFont
 
-ROOT = Path('app/src/main/assets/recipes')
-VRAC = Path('VRAC')
-MANUAL_EXTS = ['.jpg','.jpeg','.png','.webp']
-
-PALETTES = {
- 'france':('#f6ead7','#d94b3d','#f2bd4a','#355c7d'),
- 'senegal':('#fff1bf','#d66b2c','#488c43','#f2c84b'),
- 'italie':('#f4ead7','#c94a44','#4e8a57','#efc85b'),
- 'espagne':('#fff0cf','#c94a35','#e3a62f','#6d3f34'),
- 'usa':('#f1e7da','#b84a45','#3f6693','#f0c45a'),
- 'allemagne':('#f1e9da','#7b5135','#d3a93b','#545d48')
-}
+ROOT=Path('app/src/main/assets/recipes')
+VRAC=Path('VRAC')
+MANUAL_EXTS=['.jpg','.jpeg','.png','.webp']
+PALETTES={
+ 'france':('#F7E9D7','#B9472F','#F1C766','#375B78'),
+ 'senegal':('#FFF0C2','#D56A2E','#5E8D4A','#E7C34E'),
+ 'italie':('#F7E8D9','#C74D42','#4F8A57','#E6C35A'),
+ 'espagne':('#FFF0CE','#C74635','#E4A62F','#714437'),
+ 'usa':('#F1E8DD','#B84D45','#466995','#EFC45A'),
+ 'allemagne':('#F0E8DC','#7A5238','#D0A83B','#59604D')}
 
 def norm(s):
  s=unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower()
  return re.sub(r'[^a-z0-9]+',' ',s)
 
-def kind(title, category):
+def kind(title,cat):
  t=norm(title)
- if category=='desserts':
-  if any(x in t for x in ['soupe','creme','pudding','riz au lait','semoule','compote','sorbet','gelato','granita']): return 'bowl'
-  if any(x in t for x in ['tarte','pie','gateau','cake','cheesecake','tiramisu','brownie','brioche','panettone']): return 'cake'
+ if cat=='desserts':
+  if any(x in t for x in ['gateau','cake','tarte','pie','brown','cheesecake','tiramisu','brioche','panettone']): return 'cake'
   return 'dessert'
- if any(x in t for x in ['soupe','veloute','chowder','gumbo','goulasch','ragout','mafe','domoda','yassa','thiou','sauce','curry','lentilles']): return 'bowl'
- if any(x in t for x in ['riz','paella','risotto','ceebu','thieb','jambalaya','pilaf']): return 'rice'
- if any(x in t for x in ['pates','pasta','spatzle','gnocchi','lasagne','vermicelle','mac and cheese']): return 'pasta'
- if any(x in t for x in ['salade','coleslaw','taboule']): return 'salad'
+ if any(x in t for x in ['riz','paella','risotto','ceebu','thieb','jambalaya']): return 'rice'
+ if any(x in t for x in ['pate','pasta','spatzle','gnocchi','lasagne','vermicelle','mac and cheese']): return 'pasta'
+ if any(x in t for x in ['salade','coleslaw']): return 'salad'
  if any(x in t for x in ['poisson','morue','merlu','calamar','saumon']): return 'fish'
- if any(x in t for x in ['poulet','chicken','boeuf','bœuf','porc','veau','viande','meat','saucisse']): return 'meat'
- return 'plate'
+ if any(x in t for x in ['poulet','chicken','boeuf','porc','veau','viande','meat','saucisse']): return 'meat'
+ return 'bowl'
 
-def shapes(k, c1,c2,c3):
- if k=='bowl':
-  return f'<ellipse cx="400" cy="265" rx="180" ry="72" fill="{c3}"/><path d="M220 260 Q400 430 580 260" fill="{c1}"/><ellipse cx="400" cy="260" rx="145" ry="48" fill="{c2}"/><circle cx="350" cy="250" r="18" fill="#f7e2a1"/><circle cx="430" cy="270" r="16" fill="#7b9d54"/><circle cx="475" cy="245" r="13" fill="#c95b44"/>'
+def font(size,bold=False):
+ paths=['/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf' if bold else '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf']
+ for p in paths:
+  if Path(p).exists(): return ImageFont.truetype(p,size)
+ return ImageFont.load_default()
+
+def draw_food(d,k,c1,c2,c3):
+ # plate shadow + plate
+ d.ellipse((170,170,630,405),fill='#D7C8B7')
+ d.ellipse((190,155,610,385),fill='#FFF8EA')
  if k=='rice':
-  return f'<ellipse cx="400" cy="315" rx="205" ry="78" fill="{c1}"/><ellipse cx="400" cy="285" rx="165" ry="92" fill="#fff3c6"/><circle cx="335" cy="255" r="20" fill="{c2}"/><circle cx="430" cy="245" r="18" fill="#72934d"/><circle cx="475" cy="285" r="16" fill="{c3}"/><circle cx="365" cy="310" r="15" fill="#d88243"/>'
- if k=='pasta':
-  return f'<ellipse cx="400" cy="315" rx="205" ry="78" fill="{c1}"/><path d="M285 285 C330 220 370 350 415 265 S500 330 525 260" fill="none" stroke="#efcc69" stroke-width="28" stroke-linecap="round"/><circle cx="355" cy="270" r="18" fill="{c2}"/><circle cx="455" cy="300" r="16" fill="#6d9654"/>'
- if k=='salad':
-  return f'<ellipse cx="400" cy="310" rx="195" ry="74" fill="{c1}"/><path d="M245 275 Q400 420 555 275" fill="#e8efe2"/><circle cx="335" cy="265" r="38" fill="#6d9e55"/><circle cx="400" cy="245" r="32" fill="#8db765"/><circle cx="465" cy="275" r="34" fill="#5f8f4d"/><circle cx="380" cy="295" r="20" fill="{c2}"/>'
- if k=='fish':
-  return f'<ellipse cx="400" cy="315" rx="210" ry="80" fill="{c1}"/><path d="M275 275 Q390 190 500 275 Q390 360 275 275Z" fill="#e9c59d"/><path d="M500 275 L565 225 L565 325Z" fill="#d9ae7d"/><circle cx="315" cy="260" r="8" fill="#2b2b2b"/><circle cx="410" cy="320" r="18" fill="#6f9d54"/>'
- if k=='meat':
-  return f'<ellipse cx="400" cy="315" rx="210" ry="80" fill="{c1}"/><path d="M285 280 Q335 205 420 245 Q500 220 525 300 Q455 350 360 330 Q300 340 285 280Z" fill="#a95f47"/><path d="M330 270 Q395 240 470 280" fill="none" stroke="#f1c58e" stroke-width="13"/><circle cx="500" cy="315" r="22" fill="#70964e"/>'
- if k=='cake':
-  return f'<ellipse cx="400" cy="335" rx="190" ry="62" fill="{c1}"/><path d="M300 315 L330 205 L500 230 L520 320Z" fill="#e3b071"/><path d="M330 205 L500 230 L480 260 L320 240Z" fill="{c2}"/><circle cx="420" cy="215" r="16" fill="#f4eee1"/>'
- if k=='dessert':
-  return f'<ellipse cx="400" cy="330" rx="165" ry="55" fill="{c1}"/><rect x="325" y="215" width="150" height="115" rx="38" fill="#f0d7ab"/><path d="M335 245 Q400 205 465 245" fill="none" stroke="{c2}" stroke-width="16"/>'
- return f'<ellipse cx="400" cy="315" rx="210" ry="80" fill="{c1}"/><circle cx="400" cy="275" r="110" fill="#f3dfad"/><circle cx="355" cy="260" r="30" fill="{c2}"/><circle cx="430" cy="300" r="28" fill="#70974d"/><circle cx="465" cy="245" r="22" fill="{c3}"/>'
+  d.ellipse((275,205,525,340),fill='#F5E3A2'); d.ellipse((315,225,365,270),fill=c2); d.ellipse((420,245,465,288),fill='#6F9B55'); d.ellipse((380,290,425,330),fill=c3)
+ elif k=='pasta':
+  for i in range(8):
+   x=255+i*35; d.arc((x,210,x+120,340),10,260,fill='#E9C35F',width=18)
+  d.ellipse((330,245,380,295),fill=c2); d.ellipse((455,275,500,320),fill='#6D9654')
+ elif k=='salad':
+  for box,col in [((270,220,355,305),'#6E9D55'),((350,195,445,290),'#8BB56A'),((430,225,520,315),'#5E8E4C'),((365,270,415,320),c2)]: d.ellipse(box,fill=col)
+ elif k=='fish':
+  d.polygon([(260,275),(380,205),(520,275),(380,345)],fill='#E8C39A'); d.polygon([(520,275),(585,225),(585,325)],fill='#D4A777'); d.ellipse((290,255,306,271),fill='#222')
+ elif k=='meat':
+  d.rounded_rectangle((260,215,535,335),radius=45,fill='#A85E46'); d.line((305,265,485,285),fill='#F0C28D',width=14); d.ellipse((500,295,545,340),fill='#6F9650')
+ elif k=='cake':
+  d.polygon([(300,325),(330,205),(500,225),(525,330)],fill='#E1AE70'); d.polygon([(330,205),(500,225),(480,265),(320,245)],fill=c2); d.ellipse((410,205,445,240),fill='#FFF3E7')
+ elif k=='dessert':
+  d.rounded_rectangle((315,205,485,335),radius=35,fill='#EED7AA'); d.arc((325,225,475,285),180,360,fill=c2,width=16)
+ else:
+  d.ellipse((250,210,550,345),fill=c2); d.ellipse((310,245,350,285),fill='#F4D38C'); d.ellipse((405,260,445,300),fill='#6F9851'); d.ellipse((455,225,490,260),fill=c3)
 
-def make_svg(data):
- title=data.get('title','Recette'); country=data.get('country','france'); cat=data.get('category','plats'); flag=data.get('flag','🍽️')
- bg,c1,c2,c3=PALETTES.get(country,('#f3eadc','#be6244','#dda943','#55755b'))
- seed=int(hashlib.sha1(title.encode('utf-8')).hexdigest()[:6],16)
- # subtle unique placement pattern
- dots=''.join(f'<circle cx="{80+(seed>>(i*3))%650}" cy="{85+(seed>>(i*4))%300}" r="{8+(i%3)*4}" fill="{c3}" opacity="0.10"/>' for i in range(7))
- body=shapes(kind(title,cat),c1,c2,c3)
- safe=html.escape(title)
- small=safe if len(safe)<=34 else safe[:31]+'…'
- return f'''<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
-<rect width="800" height="500" rx="34" fill="{bg}"/>{dots}
-<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">{flag}</text>
-{body}
-<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
-<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">{small}</text>
-</svg>'''
+def make_png(data,path):
+ title=data.get('title','Recette'); country=data.get('country','france'); cat=data.get('category','plats')
+ bg,c1,c2,c3=PALETTES.get(country,('#F5EBDD','#BE6244','#DDA943','#55755B'))
+ im=Image.new('RGB',(800,500),bg); d=ImageDraw.Draw(im)
+ seed=int(hashlib.sha1(title.encode()).hexdigest()[:8],16)
+ for i in range(8):
+  x=50+((seed>>(i*3))%700); y=45+((seed>>(i*4))%300); r=8+(i%3)*4
+  d.ellipse((x-r,y-r,x+r,y+r),fill=c3)
+ draw_food(d,kind(title,cat),c1,c2,c3)
+ d.rounded_rectangle((55,395,745,470),radius=22,fill='#FFFDF9')
+ text=title if len(title)<=34 else title[:31]+'…'
+ f=font(30,True); box=d.textbbox((0,0),text,font=f); d.text(((800-(box[2]-box[0]))/2,416),text,font=f,fill='#252525')
+ d.rounded_rectangle((50,35,210,88),radius=24,fill='#2B1A10'); d.text((72,50),data.get('countryLabel',''),font=font(18,True),fill='#FFFFFF')
+ im.save(path,'PNG',optimize=True)
 
 manual=generated=0
 for recipe_file in sorted(ROOT.rglob('recipe.json')):
  data=json.loads(recipe_file.read_text(encoding='utf-8'))
  rid=data.get('id',recipe_file.parent.name)
- found=any((VRAC/(rid+ext)).exists() for ext in MANUAL_EXTS)
- if found:
-  manual+=1
-  continue
- svg=recipe_file.parent/'image.svg'
- svg.write_text(make_svg(data),encoding='utf-8')
- data['image']='image.svg'
+ manual_file=None
+ for ext in MANUAL_EXTS:
+  p=VRAC/(rid+ext)
+  if p.exists(): manual_file=p; break
+ if manual_file:
+  manual+=1; continue
+ out=recipe_file.parent/'image.png'
+ make_png(data,out)
+ data['image']='image.png'
  recipe_file.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+ old=recipe_file.parent/'image.svg'
+ if old.exists(): old.unlink()
  generated+=1
-print(f'{manual} illustrations VRAC conservées, {generated} illustrations générées automatiquement')
+print(f'{manual} illustrations VRAC conservées, {generated} PNG générés')
