@@ -1,0 +1,83 @@
+{
+  "id": "senegal-desserts-beignets-de-mil",
+  "title": "Beignets de mil",
+  "country": "senegal",
+  "countryLabel": "Sénégal",
+  "flag": "🇸🇳",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "difficulty": "Facile",
+  "description": "Petits beignets moelleux à base de farine de mil, pâte préparée au robot.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "200 g",
+      "name": "farine de mil"
+    },
+    {
+      "amount": "100 g",
+      "name": "farine de blé"
+    },
+    {
+      "amount": "60 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "1",
+      "name": "œuf"
+    },
+    {
+      "amount": "180 ml",
+      "name": "lait"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "levure boulangère sèche"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mélanger",
+      "instruction": "Mettre lait, levure et sucre dans le bol.",
+      "durationSeconds": 120,
+      "temperatureC": 37,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Pétrir",
+      "instruction": "Ajouter farines et œuf puis pétrir.",
+      "durationSeconds": 120,
+      "temperatureC": 0,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Lever",
+      "instruction": "Laisser la pâte lever dans un récipient couvert environ 1 h.",
+      "durationSeconds": 3600,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Former de petites portions et frire jusqu'à coloration dorée.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

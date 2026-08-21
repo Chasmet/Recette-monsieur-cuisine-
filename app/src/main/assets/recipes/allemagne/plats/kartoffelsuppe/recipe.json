@@ -1,0 +1,97 @@
+{
+  "id": "allemagne-plats-kartoffelsuppe",
+  "title": "Kartoffelsuppe",
+  "country": "allemagne",
+  "countryLabel": "Allemagne",
+  "flag": "🇩🇪",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 35,
+  "difficulty": "Facile",
+  "description": "Soupe allemande épaisse de pommes de terre, carottes et poireaux.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "700 g",
+      "name": "pommes de terre"
+    },
+    {
+      "amount": "2",
+      "name": "carottes"
+    },
+    {
+      "amount": "1",
+      "name": "poireau"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "900 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "100 ml",
+      "name": "crème"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "marjolaine"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher",
+      "instruction": "Mettre oignon, carottes et poireau dans le bol.",
+      "durationSeconds": 6,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter un peu de beurre.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Ajouter pommes de terre, bouillon et marjolaine.",
+      "durationSeconds": 1500,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mixer",
+      "instruction": "Mixer selon texture souhaitée.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "6",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Finir",
+      "instruction": "Ajouter la crème et réchauffer.",
+      "durationSeconds": 180,
+      "temperatureC": 80,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

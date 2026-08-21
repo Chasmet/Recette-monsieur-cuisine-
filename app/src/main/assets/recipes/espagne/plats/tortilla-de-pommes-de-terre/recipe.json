@@ -1,0 +1,89 @@
+{
+  "id": "espagne-plats-tortilla-de-pommes-de-terre",
+  "title": "Tortilla de pommes de terre",
+  "country": "espagne",
+  "countryLabel": "Espagne",
+  "flag": "🇪🇸",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "difficulty": "Facile",
+  "description": "Pommes de terre et oignons préparés au robot, finition à la poêle.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "600 g",
+      "name": "pommes de terre"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "6",
+      "name": "œufs"
+    },
+    {
+      "amount": "60 ml",
+      "name": "huile d'olive"
+    },
+    {
+      "amount": "1 pincée",
+      "name": "sel"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher l'oignon",
+      "instruction": "Mettre l'oignon dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire pommes de terre",
+      "instruction": "Ajouter huile et pommes de terre en fines tranches.",
+      "durationSeconds": 1200,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Battre les œufs",
+      "instruction": "Réserver les pommes de terre. Mettre les œufs et le sel dans le bol.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Assembler",
+      "instruction": "Mélanger œufs et pommes de terre à la spatule.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire à la poêle",
+      "instruction": "Verser dans une poêle huilée et cuire des deux côtés jusqu'à prise complète.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

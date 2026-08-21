@@ -1,0 +1,83 @@
+{
+  "id": "senegal-desserts-thiakry",
+  "title": "Thiakry",
+  "country": "senegal",
+  "countryLabel": "Sénégal",
+  "flag": "🇸🇳",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "difficulty": "Facile",
+  "description": "Dessert sénégalais de couscous de mil et lait fermenté parfumé.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "250 g",
+      "name": "couscous de mil"
+    },
+    {
+      "amount": "500 ml",
+      "name": "lait caillé ou yaourt nature"
+    },
+    {
+      "amount": "100 ml",
+      "name": "lait concentré non sucré"
+    },
+    {
+      "amount": "50 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "vanille"
+    },
+    {
+      "amount": "1 pincée",
+      "name": "muscade"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cuire le mil",
+      "instruction": "Humidifier le couscous de mil puis le cuire à la vapeur jusqu'à tendreté.",
+      "durationSeconds": 1200,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Refroidir",
+      "instruction": "Égrainer et laisser refroidir complètement.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Préparer la crème",
+      "instruction": "Mettre lait caillé, lait concentré, sucre, vanille et muscade dans le bol.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Assembler",
+      "instruction": "Mélanger le mil refroidi et la crème, puis réserver au frais.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "espagne-desserts-churros",
+  "title": "Churros",
+  "country": "espagne",
+  "countryLabel": "Espagne",
+  "flag": "🇪🇸",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "difficulty": "Facile",
+  "description": "Pâte à churros préparée au robot puis pochée et frite.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "250 ml",
+      "name": "eau"
+    },
+    {
+      "amount": "30 g",
+      "name": "beurre"
+    },
+    {
+      "amount": "180 g",
+      "name": "farine"
+    },
+    {
+      "amount": "1 pincée",
+      "name": "sel"
+    },
+    {
+      "amount": "40 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "cannelle"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Chauffer l'eau",
+      "instruction": "Mettre eau, beurre et sel dans le bol.",
+      "durationSeconds": 300,
+      "temperatureC": 100,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter la farine",
+      "instruction": "Ajouter la farine d'un coup et mélanger.",
+      "durationSeconds": 60,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Refroidir",
+      "instruction": "Laisser tiédir la pâte quelques minutes.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Pocher",
+      "instruction": "Mettre la pâte dans une poche munie d'une douille cannelée.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Frire",
+      "instruction": "Pocher dans l'huile chaude, frire jusqu'à doré puis rouler dans sucre-cannelle.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

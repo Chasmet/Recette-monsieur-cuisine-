@@ -1,0 +1,83 @@
+{
+  "id": "senegal-desserts-ngalakh",
+  "title": "Ngalakh",
+  "country": "senegal",
+  "countryLabel": "Sénégal",
+  "flag": "🇸🇳",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 25,
+  "difficulty": "Facile",
+  "description": "Dessert de mil servi avec une sauce onctueuse au baobab et à l'arachide.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "250 g",
+      "name": "couscous de mil"
+    },
+    {
+      "amount": "120 g",
+      "name": "pâte d'arachide"
+    },
+    {
+      "amount": "80 g",
+      "name": "poudre de baobab"
+    },
+    {
+      "amount": "600 ml",
+      "name": "eau"
+    },
+    {
+      "amount": "80 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "vanille"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cuire le mil",
+      "instruction": "Cuire le couscous de mil à la vapeur puis laisser refroidir.",
+      "durationSeconds": 1200,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Préparer le jus de baobab",
+      "instruction": "Mélanger poudre de baobab et eau.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter l'arachide",
+      "instruction": "Ajouter pâte d'arachide, sucre et vanille.",
+      "durationSeconds": 45,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Assembler",
+      "instruction": "Servir la sauce bien fraîche avec le mil refroidi.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

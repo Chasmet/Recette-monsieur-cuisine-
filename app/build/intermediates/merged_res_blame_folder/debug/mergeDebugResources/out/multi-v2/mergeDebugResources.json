@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.chasmet.recettemonsieurcuisine.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/runner/work/Recette-monsieur-cuisine-/Recette-monsieur-cuisine-/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "62",
+                        "endOffsets": "74"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "335",
+                        "endColumns": "62",
+                        "endOffsets": "393"
+                    }
+                },
+                {
+                    "source": "/home/runner/work/Recette-monsieur-cuisine-/Recette-monsieur-cuisine-/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "479"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "398",
+                        "endLines": "17",
+                        "endColumns": "12",
+                        "endOffsets": "861"
+                    }
+                },
+                {
+                    "source": "/home/runner/work/Recette-monsieur-cuisine-/Recette-monsieur-cuisine-/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "1,5,2,6,3,4,7",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "16,177,56,217,94,133,256",
+                        "endColumns": "39,39,37,38,38,43,39",
+                        "endOffsets": "51,212,89,251,128,172,291"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,135,173,212,251,295",
+                        "endColumns": "39,39,37,38,38,43,39",
+                        "endOffsets": "90,130,168,207,246,290,330"
+                    }
+                }
+            ]
+        }
+    ]
+}

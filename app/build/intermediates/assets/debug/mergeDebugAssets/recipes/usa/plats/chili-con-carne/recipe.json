@@ -1,0 +1,101 @@
+{
+  "id": "usa-plats-chili-con-carne",
+  "title": "Chili con carne",
+  "country": "usa",
+  "countryLabel": "États-Unis",
+  "flag": "🇺🇸",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "difficulty": "Facile",
+  "description": "Chili généreux au bœuf, haricots rouges et épices, mijoté au robot.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "500 g",
+      "name": "bœuf haché"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "1",
+      "name": "poivron"
+    },
+    {
+      "amount": "400 g",
+      "name": "haricots rouges cuits"
+    },
+    {
+      "amount": "500 g",
+      "name": "tomates concassées"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "concentré de tomate"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "cumin"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "paprika"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher",
+      "instruction": "Mettre oignon et poivron dans le bol.",
+      "durationSeconds": 6,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter huile et bœuf.",
+      "durationSeconds": 480,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter les épices",
+      "instruction": "Ajouter cumin, paprika et concentré.",
+      "durationSeconds": 120,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mijoter",
+      "instruction": "Ajouter tomates et cuire.",
+      "durationSeconds": 1500,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter les haricots",
+      "instruction": "Ajouter haricots et poursuivre.",
+      "durationSeconds": 600,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

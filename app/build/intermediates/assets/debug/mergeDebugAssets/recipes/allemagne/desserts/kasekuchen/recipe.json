@@ -1,0 +1,97 @@
+{
+  "id": "allemagne-desserts-kasekuchen",
+  "title": "Käsekuchen",
+  "country": "allemagne",
+  "countryLabel": "Allemagne",
+  "flag": "🇩🇪",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 60,
+  "difficulty": "Facile",
+  "description": "Cheesecake allemand au fromage blanc, appareil préparé au robot.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "500 g",
+      "name": "fromage blanc épais"
+    },
+    {
+      "amount": "120 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "3",
+      "name": "œufs"
+    },
+    {
+      "amount": "40 g",
+      "name": "fécule de maïs"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "vanille"
+    },
+    {
+      "amount": "1",
+      "name": "zeste de citron"
+    },
+    {
+      "amount": "1",
+      "name": "fond de pâte brisée"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mélanger la crème",
+      "instruction": "Mettre fromage blanc, sucre, œufs, fécule, vanille et citron dans le bol.",
+      "durationSeconds": 45,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Préparer le moule",
+      "instruction": "Foncer le moule avec la pâte brisée.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Verser",
+      "instruction": "Verser l'appareil sur la pâte.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Cuire au four à 170 °C jusqu'à ce que le centre soit presque pris.",
+      "durationSeconds": 3300,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Refroidir",
+      "instruction": "Laisser refroidir progressivement avant de démouler.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "senegal-plats-mafe-de-buf",
+  "title": "Mafé de bœuf",
+  "country": "senegal",
+  "countryLabel": "Sénégal",
+  "flag": "🇸🇳",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 65,
+  "difficulty": "Intermédiaire",
+  "description": "Sauce sénégalaise onctueuse à la pâte d'arachide, avec bœuf et légumes.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "700 g",
+      "name": "bœuf à mijoter"
+    },
+    {
+      "amount": "180 g",
+      "name": "pâte d'arachide non sucrée"
+    },
+    {
+      "amount": "2 c. à s.",
+      "name": "concentré de tomate"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "2",
+      "name": "carottes"
+    },
+    {
+      "amount": "1",
+      "name": "patate douce"
+    },
+    {
+      "amount": "700 ml",
+      "name": "bouillon"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher l'oignon",
+      "instruction": "Mettre l'oignon dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter un peu d'huile et le concentré de tomate.",
+      "durationSeconds": 360,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter la viande",
+      "instruction": "Ajouter le bœuf et mélanger.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire la sauce",
+      "instruction": "Ajouter bouillon et pâte d'arachide.",
+      "durationSeconds": 900,
+      "temperatureC": 95,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mijoter avec les légumes",
+      "instruction": "Ajouter carottes et patate douce, puis poursuivre la cuisson.",
+      "durationSeconds": 2400,
+      "temperatureC": 95,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

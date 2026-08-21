@@ -1,0 +1,89 @@
+{
+  "id": "italie-desserts-panna-cotta-vanille",
+  "title": "Panna cotta vanille",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "difficulty": "Facile",
+  "description": "Dessert italien crémeux et très simple, avec gélification au frais.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "500 ml",
+      "name": "crème entière"
+    },
+    {
+      "amount": "70 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "vanille"
+    },
+    {
+      "amount": "3 feuilles",
+      "name": "gélatine"
+    },
+    {
+      "amount": "150 g",
+      "name": "coulis de fruits rouges"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Ramollir la gélatine",
+      "instruction": "Faire tremper la gélatine dans l'eau froide.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Chauffer la crème",
+      "instruction": "Mettre crème, sucre et vanille dans le bol.",
+      "durationSeconds": 480,
+      "temperatureC": 85,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter la gélatine",
+      "instruction": "Essorer la gélatine et l'ajouter.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mouler",
+      "instruction": "Verser dans des verrines et réfrigérer au moins 4 h.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Servir",
+      "instruction": "Ajouter le coulis au moment de servir.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

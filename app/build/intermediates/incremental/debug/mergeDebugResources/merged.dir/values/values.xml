@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cream">#FFF9F0</color>
+    <color name="green">#2E7D32</color>
+    <color name="ink">#1B1B1B</color>
+    <color name="soft">#F2E8DC</color>
+    <color name="warm">#C9472D</color>
+    <color name="warm_dark">#8F2E1D</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Recettes Monsieur Cuisine</string>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/cream</item>
+        <item name="android:navigationBarColor">@color/cream</item>
+        <item name="android:colorAccent">@color/warm</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

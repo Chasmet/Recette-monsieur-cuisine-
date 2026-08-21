@@ -1,0 +1,97 @@
+{
+  "id": "italie-plats-ragu-bolognaise",
+  "title": "Ragù bolognaise",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 60,
+  "difficulty": "Facile",
+  "description": "Sauce bolognaise mijotée au robot, à servir avec pâtes ou polenta.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "500 g",
+      "name": "bœuf haché"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "1",
+      "name": "carotte"
+    },
+    {
+      "amount": "1 branche",
+      "name": "céleri"
+    },
+    {
+      "amount": "700 g",
+      "name": "tomates concassées"
+    },
+    {
+      "amount": "100 ml",
+      "name": "vin rouge"
+    },
+    {
+      "amount": "2 c. à s.",
+      "name": "huile d'olive"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher les légumes",
+      "instruction": "Mettre oignon, carotte et céleri dans le bol.",
+      "durationSeconds": 8,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter l'huile.",
+      "durationSeconds": 420,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter la viande",
+      "instruction": "Ajouter le bœuf et émietter.",
+      "durationSeconds": 480,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Déglacer",
+      "instruction": "Ajouter le vin et laisser évaporer.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mijoter",
+      "instruction": "Ajouter les tomates et laisser mijoter.",
+      "durationSeconds": 2700,
+      "temperatureC": 95,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

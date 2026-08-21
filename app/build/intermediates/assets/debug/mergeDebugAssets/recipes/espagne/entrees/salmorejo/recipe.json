@@ -1,0 +1,93 @@
+{
+  "id": "espagne-entrees-salmorejo",
+  "title": "Salmorejo",
+  "country": "espagne",
+  "countryLabel": "Espagne",
+  "flag": "🇪🇸",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 5,
+  "difficulty": "Facile",
+  "description": "Crème froide de tomates et pain, plus épaisse que le gazpacho.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "700 g",
+      "name": "tomates"
+    },
+    {
+      "amount": "150 g",
+      "name": "pain rassis"
+    },
+    {
+      "amount": "1",
+      "name": "gousse d'ail"
+    },
+    {
+      "amount": "80 ml",
+      "name": "huile d'olive"
+    },
+    {
+      "amount": "2",
+      "name": "œufs durs"
+    },
+    {
+      "amount": "80 g",
+      "name": "jambon en dés"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mixer tomates et ail",
+      "instruction": "Mettre tomates et ail dans le bol.",
+      "durationSeconds": 60,
+      "temperatureC": 0,
+      "speed": "8",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter le pain",
+      "instruction": "Ajouter le pain en morceaux et laisser imbiber 5 min.",
+      "durationSeconds": 300,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mixer",
+      "instruction": "Mixer jusqu'à texture lisse.",
+      "durationSeconds": 60,
+      "temperatureC": 0,
+      "speed": "8",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Émulsionner",
+      "instruction": "Ajouter l'huile en filet.",
+      "durationSeconds": 45,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Servir",
+      "instruction": "Refroidir puis garnir d'œuf dur et de jambon.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

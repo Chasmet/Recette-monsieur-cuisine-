@@ -1,0 +1,93 @@
+{
+  "id": "usa-plats-pulled-chicken-barbecue",
+  "title": "Pulled chicken barbecue",
+  "country": "usa",
+  "countryLabel": "États-Unis",
+  "flag": "🇺🇸",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 40,
+  "difficulty": "Facile",
+  "description": "Poulet effiloché sauce barbecue, tendre et pratique pour sandwichs ou bowls.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "700 g",
+      "name": "blancs ou hauts de cuisse de poulet"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "250 ml",
+      "name": "sauce barbecue"
+    },
+    {
+      "amount": "150 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "vinaigre de cidre"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "paprika fumé"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher l'oignon",
+      "instruction": "Mettre l'oignon dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter un filet d'huile.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire le poulet",
+      "instruction": "Ajouter poulet, bouillon, sauce barbecue, vinaigre et paprika.",
+      "durationSeconds": 1800,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Effilocher",
+      "instruction": "Vérifier la cuisson complète du poulet puis effilocher grossièrement.",
+      "durationSeconds": 10,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Réduire la sauce",
+      "instruction": "Poursuivre quelques minutes si la sauce est trop liquide.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

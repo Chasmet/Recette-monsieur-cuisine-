@@ -1,0 +1,93 @@
+{
+  "id": "espagne-desserts-tarta-de-santiago",
+  "title": "Tarta de Santiago",
+  "country": "espagne",
+  "countryLabel": "Espagne",
+  "flag": "🇪🇸",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "difficulty": "Facile",
+  "description": "Gâteau espagnol aux amandes, pâte préparée en moins d'une minute au robot.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "250 g",
+      "name": "poudre d'amandes"
+    },
+    {
+      "amount": "200 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "4",
+      "name": "œufs"
+    },
+    {
+      "amount": "1",
+      "name": "zeste de citron"
+    },
+    {
+      "amount": "1/2 c. à c.",
+      "name": "cannelle"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "sucre glace"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mélanger",
+      "instruction": "Mettre œufs et sucre dans le bol.",
+      "durationSeconds": 90,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter les amandes",
+      "instruction": "Ajouter poudre d'amandes, citron et cannelle.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Verser",
+      "instruction": "Verser dans un moule chemisé.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Cuire au four à 180 °C jusqu'à centre pris et bords dorés.",
+      "durationSeconds": 1800,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Décorer",
+      "instruction": "Refroidir et saupoudrer de sucre glace.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

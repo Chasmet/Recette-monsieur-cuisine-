@@ -1,0 +1,97 @@
+{
+  "id": "senegal-entrees-pastels-au-poisson",
+  "title": "Pastels au poisson",
+  "country": "senegal",
+  "countryLabel": "Sénégal",
+  "flag": "🇸🇳",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 30,
+  "cookMinutes": 20,
+  "difficulty": "Intermédiaire",
+  "description": "Petits chaussons sénégalais au poisson, farce préparée au robot puis frits ou cuits au four.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "250 g",
+      "name": "poisson cuit"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "persil"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "concentré de tomate"
+    },
+    {
+      "amount": "300 g",
+      "name": "farine"
+    },
+    {
+      "amount": "120 ml",
+      "name": "eau"
+    },
+    {
+      "amount": "30 ml",
+      "name": "huile"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer la farce",
+      "instruction": "Mettre poisson, oignon, persil et concentré de tomate dans le bol.",
+      "durationSeconds": 10,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir la farce",
+      "instruction": "Cuire la farce pour concentrer les saveurs.",
+      "durationSeconds": 300,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Pétrir la pâte",
+      "instruction": "Mettre farine, eau, huile et sel dans le bol propre.",
+      "durationSeconds": 120,
+      "temperatureC": 0,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Façonner",
+      "instruction": "Étaler, découper, garnir puis fermer les pastels.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Frire jusqu'à coloration ou cuire au four légèrement huilé à 200 °C.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

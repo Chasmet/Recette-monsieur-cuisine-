@@ -1,0 +1,79 @@
+{
+  "id": "italie-plats-polenta-cremeuse-au-parmesan",
+  "title": "Polenta crémeuse au parmesan",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 30,
+  "difficulty": "Facile",
+  "description": "Polenta douce et crémeuse, cuite sans surveillance au robot.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "250 g",
+      "name": "polenta"
+    },
+    {
+      "amount": "1 L",
+      "name": "eau ou bouillon"
+    },
+    {
+      "amount": "50 g",
+      "name": "beurre"
+    },
+    {
+      "amount": "70 g",
+      "name": "parmesan"
+    },
+    {
+      "amount": "1 pincée",
+      "name": "poivre"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Chauffer le liquide",
+      "instruction": "Verser l'eau ou le bouillon dans le bol.",
+      "durationSeconds": 600,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Verser la polenta",
+      "instruction": "Ajouter la polenta en pluie pendant que le robot mélange.",
+      "durationSeconds": 60,
+      "temperatureC": 90,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Poursuivre la cuisson jusqu'à texture crémeuse.",
+      "durationSeconds": 1200,
+      "temperatureC": 90,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Finir",
+      "instruction": "Ajouter beurre et parmesan puis mélanger.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

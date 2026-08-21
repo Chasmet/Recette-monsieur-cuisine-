@@ -1,0 +1,97 @@
+{
+  "id": "usa-desserts-apple-pie",
+  "title": "Apple pie",
+  "country": "usa",
+  "countryLabel": "États-Unis",
+  "flag": "🇺🇸",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 50,
+  "difficulty": "Intermédiaire",
+  "description": "Garniture de pommes épicées et pâte préparées au robot, finition au four.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "700 g",
+      "name": "pommes"
+    },
+    {
+      "amount": "80 g",
+      "name": "sucre roux"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "cannelle"
+    },
+    {
+      "amount": "20 g",
+      "name": "beurre"
+    },
+    {
+      "amount": "300 g",
+      "name": "farine"
+    },
+    {
+      "amount": "150 g",
+      "name": "beurre froid"
+    },
+    {
+      "amount": "80 ml",
+      "name": "eau froide"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer la pâte",
+      "instruction": "Mettre farine et beurre froid dans le bol.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter l'eau",
+      "instruction": "Ajouter l'eau froide et mélanger jusqu'à pâte.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Préparer les pommes",
+      "instruction": "Réserver la pâte. Mettre pommes, sucre, cannelle et beurre.",
+      "durationSeconds": 420,
+      "temperatureC": 90,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Monter la tarte",
+      "instruction": "Foncer le moule, ajouter les pommes puis couvrir de pâte.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Cuire au four à 190 °C jusqu'à belle coloration.",
+      "durationSeconds": 2700,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

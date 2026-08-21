@@ -1,0 +1,97 @@
+{
+  "id": "espagne-plats-albondigas-sauce-tomate",
+  "title": "Albondigas sauce tomate",
+  "country": "espagne",
+  "countryLabel": "Espagne",
+  "flag": "🇪🇸",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "difficulty": "Facile",
+  "description": "Boulettes de viande espagnoles dans une sauce tomate parfumée.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "500 g",
+      "name": "viande hachée"
+    },
+    {
+      "amount": "1",
+      "name": "œuf"
+    },
+    {
+      "amount": "40 g",
+      "name": "chapelure"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "500 g",
+      "name": "tomates concassées"
+    },
+    {
+      "amount": "1",
+      "name": "gousse d'ail"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "paprika"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer les boulettes",
+      "instruction": "Mélanger viande, œuf, chapelure, sel et paprika dans un saladier.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Façonner",
+      "instruction": "Former les boulettes et les placer dans le panier vapeur.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Hacher sauce",
+      "instruction": "Mettre oignon et ail dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire sauce et boulettes",
+      "instruction": "Ajouter tomates, puis installer le panier vapeur et cuire.",
+      "durationSeconds": 1500,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Finir",
+      "instruction": "Déposer les boulettes dans la sauce et mélanger délicatement.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

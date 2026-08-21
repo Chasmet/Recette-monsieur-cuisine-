@@ -1,0 +1,101 @@
+{
+  "id": "italie-entrees-minestrone",
+  "title": "Minestrone",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "difficulty": "Facile",
+  "description": "Soupe italienne de légumes, haricots et petites pâtes.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "1",
+      "name": "courgette"
+    },
+    {
+      "amount": "1",
+      "name": "carotte"
+    },
+    {
+      "amount": "1 branche",
+      "name": "céleri"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "200 g",
+      "name": "haricots blancs cuits"
+    },
+    {
+      "amount": "100 g",
+      "name": "petites pâtes"
+    },
+    {
+      "amount": "800 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "300 g",
+      "name": "tomates concassées"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher les légumes",
+      "instruction": "Mettre oignon, carotte et céleri dans le bol.",
+      "durationSeconds": 6,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter huile d'olive.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire la soupe",
+      "instruction": "Ajouter courgette, tomates et bouillon.",
+      "durationSeconds": 1200,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter haricots et pâtes",
+      "instruction": "Ajouter haricots et petites pâtes.",
+      "durationSeconds": 600,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Servir",
+      "instruction": "Vérifier la cuisson des pâtes et assaisonner.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

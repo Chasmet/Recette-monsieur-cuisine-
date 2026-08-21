@@ -1,0 +1,97 @@
+{
+  "id": "italie-plats-risotto-aux-champignons",
+  "title": "Risotto aux champignons",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "difficulty": "Facile",
+  "description": "Risotto crémeux aux champignons, parfait pour la cuisson lente du robot.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "320 g",
+      "name": "riz arborio"
+    },
+    {
+      "amount": "300 g",
+      "name": "champignons"
+    },
+    {
+      "amount": "1",
+      "name": "échalote"
+    },
+    {
+      "amount": "80 ml",
+      "name": "vin blanc"
+    },
+    {
+      "amount": "800 ml",
+      "name": "bouillon chaud"
+    },
+    {
+      "amount": "60 g",
+      "name": "parmesan"
+    },
+    {
+      "amount": "30 g",
+      "name": "beurre"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher l'échalote",
+      "instruction": "Mettre l'échalote dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter beurre et champignons.",
+      "durationSeconds": 360,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Nacrer le riz",
+      "instruction": "Ajouter le riz et mélanger.",
+      "durationSeconds": 180,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire le risotto",
+      "instruction": "Ajouter vin et bouillon, puis cuire sans gobelet doseur.",
+      "durationSeconds": 1080,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mantecare",
+      "instruction": "Ajouter parmesan et un peu de beurre, mélanger puis laisser reposer 2 min.",
+      "durationSeconds": 60,
+      "temperatureC": 0,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

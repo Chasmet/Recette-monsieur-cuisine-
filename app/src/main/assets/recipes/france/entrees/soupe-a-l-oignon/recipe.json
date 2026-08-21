@@ -1,0 +1,93 @@
+{
+  "id": "france-entrees-soupe-a-l-oignon",
+  "title": "Soupe à l'oignon",
+  "country": "france",
+  "countryLabel": "France",
+  "flag": "🇫🇷",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "difficulty": "Facile",
+  "description": "Soupe réconfortante aux oignons doucement fondus, idéale avec pain grillé et fromage.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "600 g",
+      "name": "oignons"
+    },
+    {
+      "amount": "30 g",
+      "name": "beurre"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "farine"
+    },
+    {
+      "amount": "900 ml",
+      "name": "bouillon de bœuf"
+    },
+    {
+      "amount": "4",
+      "name": "tranches de pain"
+    },
+    {
+      "amount": "100 g",
+      "name": "comté râpé"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Émincer les oignons",
+      "instruction": "Mettre les oignons coupés dans le bol.",
+      "durationSeconds": 8,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire fondre",
+      "instruction": "Ajouter le beurre et faire revenir.",
+      "durationSeconds": 900,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Singer",
+      "instruction": "Ajouter la farine puis mélanger.",
+      "durationSeconds": 60,
+      "temperatureC": 100,
+      "speed": "2",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire la soupe",
+      "instruction": "Verser le bouillon et laisser cuire.",
+      "durationSeconds": 1500,
+      "temperatureC": 95,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Gratiner",
+      "instruction": "Verser dans des bols, poser pain et fromage puis gratiner quelques minutes au four.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

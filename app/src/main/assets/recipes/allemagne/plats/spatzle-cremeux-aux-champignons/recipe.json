@@ -1,0 +1,93 @@
+{
+  "id": "allemagne-plats-spatzle-cremeux-aux-champignons",
+  "title": "Spätzle crémeux aux champignons",
+  "country": "allemagne",
+  "countryLabel": "Allemagne",
+  "flag": "🇩🇪",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "difficulty": "Facile",
+  "description": "Petites pâtes allemandes servies avec une sauce crémeuse aux champignons.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "400 g",
+      "name": "spätzle cuits"
+    },
+    {
+      "amount": "300 g",
+      "name": "champignons"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "200 ml",
+      "name": "crème"
+    },
+    {
+      "amount": "80 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "50 g",
+      "name": "fromage râpé"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher l'oignon",
+      "instruction": "Mettre l'oignon dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire les champignons",
+      "instruction": "Ajouter beurre et champignons.",
+      "durationSeconds": 480,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire la sauce",
+      "instruction": "Ajouter crème et bouillon.",
+      "durationSeconds": 300,
+      "temperatureC": 95,
+      "speed": "2",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter les spätzle",
+      "instruction": "Ajouter les spätzle cuits et mélanger.",
+      "durationSeconds": 180,
+      "temperatureC": 90,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Finir",
+      "instruction": "Ajouter le fromage et servir bien chaud.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

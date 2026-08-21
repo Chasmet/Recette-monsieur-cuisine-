@@ -1,0 +1,93 @@
+{
+  "id": "italie-desserts-tiramisu",
+  "title": "Tiramisu",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 0,
+  "difficulty": "Facile",
+  "description": "Crème mascarpone préparée au robot, montée avec biscuits imbibés de café.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "250 g",
+      "name": "mascarpone"
+    },
+    {
+      "amount": "3",
+      "name": "œufs"
+    },
+    {
+      "amount": "80 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "200 ml",
+      "name": "café fort refroidi"
+    },
+    {
+      "amount": "200 g",
+      "name": "biscuits cuillère"
+    },
+    {
+      "amount": "2 c. à s.",
+      "name": "cacao"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Monter les blancs",
+      "instruction": "Séparer les œufs. Installer le fouet et monter les blancs.",
+      "durationSeconds": 240,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Travailler les jaunes",
+      "instruction": "Réserver les blancs. Fouetter jaunes et sucre.",
+      "durationSeconds": 180,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter mascarpone",
+      "instruction": "Ajouter le mascarpone et mélanger.",
+      "durationSeconds": 60,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Incorporer les blancs",
+      "instruction": "Incorporer délicatement les blancs à la spatule.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Monter le tiramisu",
+      "instruction": "Alterner biscuits imbibés de café et crème. Saupoudrer de cacao et réserver au frais au moins 4 h.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

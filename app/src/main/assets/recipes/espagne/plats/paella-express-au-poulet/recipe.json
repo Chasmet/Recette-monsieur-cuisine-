@@ -1,0 +1,101 @@
+{
+  "id": "espagne-plats-paella-express-au-poulet",
+  "title": "Paella express au poulet",
+  "country": "espagne",
+  "countryLabel": "Espagne",
+  "flag": "🇪🇸",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 35,
+  "difficulty": "Facile",
+  "description": "Version robot inspirée de la paella, avec riz safrané, poivron et poulet.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "350 g",
+      "name": "riz rond"
+    },
+    {
+      "amount": "500 g",
+      "name": "poulet en morceaux"
+    },
+    {
+      "amount": "1",
+      "name": "poivron rouge"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "2",
+      "name": "tomates"
+    },
+    {
+      "amount": "850 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "1 pincée",
+      "name": "safran"
+    },
+    {
+      "amount": "100 g",
+      "name": "petits pois"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher l'oignon",
+      "instruction": "Mettre oignon et poivron dans le bol.",
+      "durationSeconds": 6,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter huile et poulet.",
+      "durationSeconds": 480,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter tomate",
+      "instruction": "Ajouter tomate et safran.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire le riz",
+      "instruction": "Ajouter riz et bouillon.",
+      "durationSeconds": 1080,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter les petits pois",
+      "instruction": "Ajouter les petits pois et finir la cuisson.",
+      "durationSeconds": 300,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

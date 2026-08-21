@@ -1,0 +1,85 @@
+{
+  "id": "france-desserts-mousse-au-chocolat",
+  "title": "Mousse au chocolat",
+  "country": "france",
+  "countryLabel": "France",
+  "flag": "🇫🇷",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 5,
+  "difficulty": "Facile",
+  "description": "Mousse chocolatée légère avec blancs montés séparément au robot.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "200 g",
+      "name": "chocolat noir"
+    },
+    {
+      "amount": "6",
+      "name": "œufs"
+    },
+    {
+      "amount": "1 pincée",
+      "name": "sel"
+    },
+    {
+      "amount": "20 g",
+      "name": "sucre"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Faire fondre le chocolat",
+      "instruction": "Mettre le chocolat en morceaux dans le bol.",
+      "durationSeconds": 300,
+      "temperatureC": 50,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Séparer les œufs",
+      "instruction": "Séparer blancs et jaunes. Mélanger les jaunes au chocolat hors chauffe.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Monter les blancs",
+      "instruction": "Nettoyer et sécher le bol. Installer le fouet, ajouter blancs et sel.",
+      "durationSeconds": 240,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Serrer les blancs",
+      "instruction": "Ajouter le sucre en pluie.",
+      "durationSeconds": 60,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Incorporer",
+      "instruction": "Incorporer délicatement les blancs au chocolat à la spatule puis réserver au frais au moins 3 h.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

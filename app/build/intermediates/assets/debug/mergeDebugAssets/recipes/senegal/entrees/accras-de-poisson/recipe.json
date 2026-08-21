@@ -1,0 +1,87 @@
+{
+  "id": "senegal-entrees-accras-de-poisson",
+  "title": "Accras de poisson",
+  "country": "senegal",
+  "countryLabel": "Sénégal",
+  "flag": "🇸🇳",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "difficulty": "Facile",
+  "description": "Bouchées de poisson épicées, faciles à préparer au robot avant cuisson.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "300 g",
+      "name": "poisson blanc"
+    },
+    {
+      "amount": "180 g",
+      "name": "farine"
+    },
+    {
+      "amount": "1",
+      "name": "œuf"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "persil"
+    },
+    {
+      "amount": "120 ml",
+      "name": "eau"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "levure"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher la garniture",
+      "instruction": "Mettre poisson, oignon et persil dans le bol.",
+      "durationSeconds": 10,
+      "temperatureC": 0,
+      "speed": "6",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter la pâte",
+      "instruction": "Ajouter farine, œuf, eau, levure et sel.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Reposer",
+      "instruction": "Laisser la pâte reposer 15 minutes.",
+      "durationSeconds": 900,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Déposer de petites cuillerées dans l'huile chaude et cuire jusqu'à coloration.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

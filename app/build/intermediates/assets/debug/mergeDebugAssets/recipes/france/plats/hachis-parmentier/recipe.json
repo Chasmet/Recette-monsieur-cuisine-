@@ -1,0 +1,97 @@
+{
+  "id": "france-plats-hachis-parmentier",
+  "title": "Hachis parmentier",
+  "country": "france",
+  "countryLabel": "France",
+  "flag": "🇫🇷",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "difficulty": "Facile",
+  "description": "Purée maison et viande mijotée, puis gratinage au four.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "800 g",
+      "name": "pommes de terre"
+    },
+    {
+      "amount": "400 g",
+      "name": "bœuf haché"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "200 ml",
+      "name": "lait"
+    },
+    {
+      "amount": "40 g",
+      "name": "beurre"
+    },
+    {
+      "amount": "80 g",
+      "name": "fromage râpé"
+    },
+    {
+      "amount": "1 pincée",
+      "name": "muscade"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cuire les pommes de terre",
+      "instruction": "Mettre les pommes de terre en morceaux avec de l'eau salée dans le panier cuisson.",
+      "durationSeconds": 1500,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire la purée",
+      "instruction": "Égoutter, ajouter lait, beurre et muscade puis mixer.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Hacher l'oignon",
+      "instruction": "Mettre l'oignon dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire la viande",
+      "instruction": "Ajouter la viande hachée et cuire en remuant.",
+      "durationSeconds": 600,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Monter et gratiner",
+      "instruction": "Étaler viande puis purée dans un plat, couvrir de fromage et gratiner au four à 200 °C environ 20 min.",
+      "durationSeconds": 1200,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

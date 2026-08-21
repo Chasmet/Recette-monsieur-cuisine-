@@ -1,0 +1,93 @@
+{
+  "id": "italie-entrees-creme-de-tomates-a-l-italienne",
+  "title": "Crème de tomates à l'italienne",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "difficulty": "Facile",
+  "description": "Velouté de tomates au basilic, servi chaud ou tiède.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "700 g",
+      "name": "tomates concassées"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "1",
+      "name": "gousse d'ail"
+    },
+    {
+      "amount": "400 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "80 ml",
+      "name": "crème"
+    },
+    {
+      "amount": "10 feuilles",
+      "name": "basilic"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher",
+      "instruction": "Mettre oignon et ail dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter un filet d'huile d'olive.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Ajouter tomates et bouillon.",
+      "durationSeconds": 1200,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mixer",
+      "instruction": "Mixer progressivement jusqu'à texture lisse.",
+      "durationSeconds": 60,
+      "temperatureC": 0,
+      "speed": "8",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Finir",
+      "instruction": "Ajouter crème et basilic puis mélanger.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

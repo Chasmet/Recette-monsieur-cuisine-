@@ -1,0 +1,69 @@
+{
+  "id": "allemagne-desserts-apfelmus",
+  "title": "Apfelmus",
+  "country": "allemagne",
+  "countryLabel": "Allemagne",
+  "flag": "🇩🇪",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "difficulty": "Facile",
+  "description": "Compote de pommes allemande très simple, parfumée à la cannelle.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "800 g",
+      "name": "pommes"
+    },
+    {
+      "amount": "50 ml",
+      "name": "eau"
+    },
+    {
+      "amount": "30 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "1/2 c. à c.",
+      "name": "cannelle"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "jus de citron"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cuire les pommes",
+      "instruction": "Mettre pommes, eau, sucre, cannelle et citron dans le bol.",
+      "durationSeconds": 900,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mixer",
+      "instruction": "Mixer jusqu'à texture désirée.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "6",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Refroidir",
+      "instruction": "Servir tiède ou laisser refroidir au réfrigérateur.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "espagne-desserts-crema-catalana",
+  "title": "Crema catalana",
+  "country": "espagne",
+  "countryLabel": "Espagne",
+  "flag": "🇪🇸",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "difficulty": "Facile",
+  "description": "Crème parfumée au citron et cannelle, avec dessus caramélisé.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "500 ml",
+      "name": "lait"
+    },
+    {
+      "amount": "4",
+      "name": "jaunes d'œufs"
+    },
+    {
+      "amount": "80 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "25 g",
+      "name": "fécule de maïs"
+    },
+    {
+      "amount": "1",
+      "name": "zeste de citron"
+    },
+    {
+      "amount": "1/2 c. à c.",
+      "name": "cannelle"
+    },
+    {
+      "amount": "40 g",
+      "name": "cassonade"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mélanger",
+      "instruction": "Mettre lait, jaunes, sucre, fécule, citron et cannelle dans le bol.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire la crème",
+      "instruction": "Cuire jusqu'à épaississement.",
+      "durationSeconds": 600,
+      "temperatureC": 90,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mouler",
+      "instruction": "Verser dans des ramequins et refroidir.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Caraméliser",
+      "instruction": "Saupoudrer de cassonade et caraméliser juste avant de servir.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

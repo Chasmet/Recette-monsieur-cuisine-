@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.chasmet.recettemonsieurcuisine.app-debug-4:/drawable_bg_card.xml.flat",
+        "source": "com.chasmet.recettemonsieurcuisine.app-main-6:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.chasmet.recettemonsieurcuisine.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.chasmet.recettemonsieurcuisine.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.chasmet.recettemonsieurcuisine.app-debug-4:/drawable_bg_primary.xml.flat",
+        "source": "com.chasmet.recettemonsieurcuisine.app-main-6:/drawable/bg_primary.xml"
+    },
+    {
+        "merged": "com.chasmet.recettemonsieurcuisine.app-debug-4:/layout_activity_cook.xml.flat",
+        "source": "com.chasmet.recettemonsieurcuisine.app-main-6:/layout/activity_cook.xml"
+    },
+    {
+        "merged": "com.chasmet.recettemonsieurcuisine.app-debug-4:/drawable_bg_filter.xml.flat",
+        "source": "com.chasmet.recettemonsieurcuisine.app-main-6:/drawable/bg_filter.xml"
+    },
+    {
+        "merged": "com.chasmet.recettemonsieurcuisine.app-debug-4:/layout_activity_recipe.xml.flat",
+        "source": "com.chasmet.recettemonsieurcuisine.app-main-6:/layout/activity_recipe.xml"
+    },
+    {
+        "merged": "com.chasmet.recettemonsieurcuisine.app-debug-4:/drawable_ic_launcher.xml.flat",
+        "source": "com.chasmet.recettemonsieurcuisine.app-main-6:/drawable/ic_launcher.xml"
+    }
+]

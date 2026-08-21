@@ -1,0 +1,83 @@
+{
+  "id": "senegal-entrees-salade-de-niebe",
+  "title": "Salade de niébé",
+  "country": "senegal",
+  "countryLabel": "Sénégal",
+  "flag": "🇸🇳",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "difficulty": "Facile",
+  "description": "Salade fraîche de haricots niébé, tomate, oignon et citron.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "300 g",
+      "name": "niébé cuit"
+    },
+    {
+      "amount": "2",
+      "name": "tomates"
+    },
+    {
+      "amount": "1/2",
+      "name": "oignon rouge"
+    },
+    {
+      "amount": "1",
+      "name": "citron"
+    },
+    {
+      "amount": "2 c. à s.",
+      "name": "huile"
+    },
+    {
+      "amount": "1 petit bouquet",
+      "name": "persil"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher l'oignon",
+      "instruction": "Mettre l'oignon et le persil dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Préparer l'assaisonnement",
+      "instruction": "Ajouter huile et jus de citron.",
+      "durationSeconds": 10,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Assembler",
+      "instruction": "Verser sur le niébé et les tomates coupées, puis mélanger à la spatule.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Reposer",
+      "instruction": "Laisser reposer 15 minutes au frais avant de servir.",
+      "durationSeconds": 900,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

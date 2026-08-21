@@ -1,0 +1,87 @@
+{
+  "id": "italie-entrees-pesto-et-bruschetta",
+  "title": "Pesto et bruschetta",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "difficulty": "Facile",
+  "description": "Pesto basilic-parmesan préparé au robot pour garnir des tartines grillées.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "50 g",
+      "name": "basilic"
+    },
+    {
+      "amount": "40 g",
+      "name": "pignons"
+    },
+    {
+      "amount": "60 g",
+      "name": "parmesan"
+    },
+    {
+      "amount": "1",
+      "name": "gousse d'ail"
+    },
+    {
+      "amount": "100 ml",
+      "name": "huile d'olive"
+    },
+    {
+      "amount": "8",
+      "name": "tranches de pain"
+    },
+    {
+      "amount": "2",
+      "name": "tomates"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mixer les solides",
+      "instruction": "Mettre basilic, pignons, parmesan et ail dans le bol.",
+      "durationSeconds": 15,
+      "temperatureC": 0,
+      "speed": "7",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Émulsionner",
+      "instruction": "Ajouter l'huile progressivement.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Griller le pain",
+      "instruction": "Griller les tranches de pain au four ou au grille-pain.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Garnir",
+      "instruction": "Étaler le pesto et ajouter les tomates en dés.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

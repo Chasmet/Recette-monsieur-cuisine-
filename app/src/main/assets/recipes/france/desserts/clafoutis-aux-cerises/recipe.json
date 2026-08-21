@@ -1,0 +1,87 @@
+{
+  "id": "france-desserts-clafoutis-aux-cerises",
+  "title": "Clafoutis aux cerises",
+  "country": "france",
+  "countryLabel": "France",
+  "flag": "🇫🇷",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "difficulty": "Facile",
+  "description": "Pâte à clafoutis express au robot, à verser sur les cerises avant cuisson au four.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "500 g",
+      "name": "cerises"
+    },
+    {
+      "amount": "100 g",
+      "name": "farine"
+    },
+    {
+      "amount": "80 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "3",
+      "name": "œufs"
+    },
+    {
+      "amount": "250 ml",
+      "name": "lait"
+    },
+    {
+      "amount": "30 g",
+      "name": "beurre fondu"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "vanille"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer le moule",
+      "instruction": "Beurrer le moule et répartir les cerises.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mixer la pâte",
+      "instruction": "Mettre farine, sucre, œufs, lait, beurre et vanille dans le bol.",
+      "durationSeconds": 40,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Verser",
+      "instruction": "Verser la pâte sur les cerises.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Cuire au four préchauffé à 180 °C jusqu'à ce que le centre soit pris.",
+      "durationSeconds": 2400,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

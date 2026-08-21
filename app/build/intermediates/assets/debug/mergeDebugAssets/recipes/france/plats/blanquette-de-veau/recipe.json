@@ -1,0 +1,101 @@
+{
+  "id": "france-plats-blanquette-de-veau",
+  "title": "Blanquette de veau",
+  "country": "france",
+  "countryLabel": "France",
+  "flag": "🇫🇷",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 65,
+  "difficulty": "Intermédiaire",
+  "description": "Veau tendre et sauce blanche crémeuse, préparés en plusieurs étapes guidées.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "800 g",
+      "name": "veau en morceaux"
+    },
+    {
+      "amount": "2",
+      "name": "carottes"
+    },
+    {
+      "amount": "1",
+      "name": "poireau"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "600 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "150 ml",
+      "name": "crème entière"
+    },
+    {
+      "amount": "1",
+      "name": "jaune d'œuf"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "jus de citron"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher l'oignon",
+      "instruction": "Mettre l'oignon dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Lancer le bouillon",
+      "instruction": "Ajouter le veau, carottes, poireau et bouillon.",
+      "durationSeconds": 3600,
+      "temperatureC": 95,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Prolonger la cuisson",
+      "instruction": "Racler les parois puis poursuivre jusqu'à viande tendre.",
+      "durationSeconds": 1800,
+      "temperatureC": 95,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Préparer la liaison",
+      "instruction": "Mélanger crème, jaune d'œuf et citron dans un bol à part.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Lier la sauce",
+      "instruction": "Verser la liaison dans le bol et mélanger sans faire bouillir.",
+      "durationSeconds": 180,
+      "temperatureC": 80,
+      "speed": "2",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

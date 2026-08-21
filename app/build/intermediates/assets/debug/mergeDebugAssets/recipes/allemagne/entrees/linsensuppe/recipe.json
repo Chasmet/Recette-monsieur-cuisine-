@@ -1,0 +1,87 @@
+{
+  "id": "allemagne-entrees-linsensuppe",
+  "title": "Linsensuppe",
+  "country": "allemagne",
+  "countryLabel": "Allemagne",
+  "flag": "🇩🇪",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 40,
+  "difficulty": "Facile",
+  "description": "Soupe allemande de lentilles et légumes, nourrissante et simple.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "250 g",
+      "name": "lentilles vertes"
+    },
+    {
+      "amount": "1",
+      "name": "carotte"
+    },
+    {
+      "amount": "1 branche",
+      "name": "céleri"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "900 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "vinaigre"
+    },
+    {
+      "amount": "1",
+      "name": "feuille de laurier"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher légumes",
+      "instruction": "Mettre oignon, carotte et céleri dans le bol.",
+      "durationSeconds": 6,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter un filet d'huile.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire les lentilles",
+      "instruction": "Ajouter lentilles, bouillon et laurier.",
+      "durationSeconds": 2100,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Assaisonner",
+      "instruction": "Retirer le laurier, ajouter le vinaigre et ajuster sel et poivre.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

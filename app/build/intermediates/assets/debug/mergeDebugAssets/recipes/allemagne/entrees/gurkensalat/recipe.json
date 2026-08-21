@@ -1,0 +1,79 @@
+{
+  "id": "allemagne-entrees-gurkensalat",
+  "title": "Gurkensalat",
+  "country": "allemagne",
+  "countryLabel": "Allemagne",
+  "flag": "🇩🇪",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "difficulty": "Facile",
+  "description": "Salade de concombre allemande à la crème, aneth et vinaigre.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "2",
+      "name": "concombres"
+    },
+    {
+      "amount": "120 g",
+      "name": "crème aigre ou yaourt"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "vinaigre"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "sucre"
+    },
+    {
+      "amount": "1 petit bouquet",
+      "name": "aneth"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Émincer",
+      "instruction": "Couper les concombres finement et les saler 10 minutes.",
+      "durationSeconds": 600,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Préparer sauce",
+      "instruction": "Mettre crème, vinaigre, sucre et aneth dans le bol.",
+      "durationSeconds": 15,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Égoutter",
+      "instruction": "Presser légèrement les concombres.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Assembler",
+      "instruction": "Mélanger les concombres avec la sauce et servir frais.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

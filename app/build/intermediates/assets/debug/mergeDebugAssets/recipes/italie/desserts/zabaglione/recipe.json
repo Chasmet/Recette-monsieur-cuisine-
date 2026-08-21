@@ -1,0 +1,75 @@
+{
+  "id": "italie-desserts-zabaglione",
+  "title": "Zabaglione",
+  "country": "italie",
+  "countryLabel": "Italie",
+  "flag": "🇮🇹",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 5,
+  "cookMinutes": 15,
+  "difficulty": "Facile",
+  "description": "Crème mousseuse italienne aux jaunes d'œufs, préparée doucement au robot.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "6",
+      "name": "jaunes d'œufs"
+    },
+    {
+      "amount": "100 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "100 ml",
+      "name": "marsala ou jus de raisin"
+    },
+    {
+      "amount": "1 pincée",
+      "name": "vanille"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Installer le fouet",
+      "instruction": "Mettre les jaunes et le sucre dans le bol avec le fouet.",
+      "durationSeconds": 240,
+      "temperatureC": 50,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter le liquide",
+      "instruction": "Verser progressivement le marsala ou le jus de raisin.",
+      "durationSeconds": 60,
+      "temperatureC": 60,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire mousser",
+      "instruction": "Poursuivre jusqu'à crème légère et mousseuse.",
+      "durationSeconds": 420,
+      "temperatureC": 70,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Servir",
+      "instruction": "Servir immédiatement en verrines.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "usa-entrees-corn-chowder",
+  "title": "Corn chowder",
+  "country": "usa",
+  "countryLabel": "États-Unis",
+  "flag": "🇺🇸",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "difficulty": "Facile",
+  "description": "Soupe américaine crémeuse au maïs et pommes de terre.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "400 g",
+      "name": "maïs"
+    },
+    {
+      "amount": "300 g",
+      "name": "pommes de terre"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "700 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "150 ml",
+      "name": "crème"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "paprika"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher l'oignon",
+      "instruction": "Mettre l'oignon dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter un peu de beurre.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Ajouter pommes de terre, maïs, bouillon et paprika.",
+      "durationSeconds": 1500,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mixer partiellement",
+      "instruction": "Mixer une partie pour épaissir en gardant de la texture.",
+      "durationSeconds": 15,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Finir",
+      "instruction": "Ajouter la crème et réchauffer.",
+      "durationSeconds": 180,
+      "temperatureC": 80,
+      "speed": "2",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

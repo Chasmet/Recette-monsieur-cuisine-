@@ -1,0 +1,105 @@
+{
+  "id": "senegal-plats-thieboudienne",
+  "title": "Thiéboudienne",
+  "country": "senegal",
+  "countryLabel": "Sénégal",
+  "flag": "🇸🇳",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 25,
+  "cookMinutes": 60,
+  "difficulty": "Intermédiaire",
+  "description": "Riz au poisson sénégalais inspiré du ceebu jën, adapté en cuisson guidée au robot.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "600 g",
+      "name": "poisson ferme"
+    },
+    {
+      "amount": "350 g",
+      "name": "riz brisé"
+    },
+    {
+      "amount": "2 c. à s.",
+      "name": "concentré de tomate"
+    },
+    {
+      "amount": "1",
+      "name": "carotte"
+    },
+    {
+      "amount": "1/4",
+      "name": "chou"
+    },
+    {
+      "amount": "1",
+      "name": "aubergine"
+    },
+    {
+      "amount": "1",
+      "name": "oignon"
+    },
+    {
+      "amount": "1 L",
+      "name": "eau ou bouillon"
+    },
+    {
+      "amount": "1 petit bouquet",
+      "name": "persil"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Préparer le rof",
+      "instruction": "Mixer oignon, persil, ail et un peu de piment selon goût.",
+      "durationSeconds": 10,
+      "temperatureC": 0,
+      "speed": "7",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Saisir la base tomate",
+      "instruction": "Ajouter huile et concentré de tomate.",
+      "durationSeconds": 420,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire poisson et légumes",
+      "instruction": "Ajouter eau, poisson et légumes. Cuire doucement.",
+      "durationSeconds": 1800,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Réserver poisson et légumes",
+      "instruction": "Retirer délicatement poisson et légumes en gardant le bouillon.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire le riz",
+      "instruction": "Ajouter le riz rincé dans le bouillon et cuire jusqu'à absorption.",
+      "durationSeconds": 1200,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

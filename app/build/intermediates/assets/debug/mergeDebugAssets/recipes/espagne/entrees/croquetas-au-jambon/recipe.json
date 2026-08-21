@@ -1,0 +1,97 @@
+{
+  "id": "espagne-entrees-croquetas-au-jambon",
+  "title": "Croquetas au jambon",
+  "country": "espagne",
+  "countryLabel": "Espagne",
+  "flag": "🇪🇸",
+  "category": "entrees",
+  "categoryLabel": "Entrées",
+  "servings": 4,
+  "prepMinutes": 30,
+  "cookMinutes": 20,
+  "difficulty": "Intermédiaire",
+  "description": "Béchamel épaisse au jambon préparée au robot, puis panée et frite.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "120 g",
+      "name": "jambon serrano"
+    },
+    {
+      "amount": "60 g",
+      "name": "beurre"
+    },
+    {
+      "amount": "80 g",
+      "name": "farine"
+    },
+    {
+      "amount": "500 ml",
+      "name": "lait"
+    },
+    {
+      "amount": "1 pincée",
+      "name": "muscade"
+    },
+    {
+      "amount": "2",
+      "name": "œufs"
+    },
+    {
+      "amount": "150 g",
+      "name": "chapelure"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher le jambon",
+      "instruction": "Mettre le jambon dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire le roux",
+      "instruction": "Réserver. Mettre beurre et farine.",
+      "durationSeconds": 180,
+      "temperatureC": 100,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire la béchamel",
+      "instruction": "Ajouter le lait et la muscade.",
+      "durationSeconds": 480,
+      "temperatureC": 90,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter le jambon",
+      "instruction": "Ajouter le jambon et mélanger.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Refroidir et paner",
+      "instruction": "Refroidir complètement, former les croquettes, passer œuf puis chapelure et frire.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

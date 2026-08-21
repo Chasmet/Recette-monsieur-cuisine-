@@ -1,0 +1,97 @@
+{
+  "id": "allemagne-plats-goulasch-allemand",
+  "title": "Goulasch allemand",
+  "country": "allemagne",
+  "countryLabel": "Allemagne",
+  "flag": "🇩🇪",
+  "category": "plats",
+  "categoryLabel": "Plats",
+  "servings": 4,
+  "prepMinutes": 20,
+  "cookMinutes": 105,
+  "difficulty": "Intermédiaire",
+  "description": "Ragoût de bœuf au paprika, oignons et sauce tomate, mijoté longtemps.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "750 g",
+      "name": "bœuf à mijoter"
+    },
+    {
+      "amount": "500 g",
+      "name": "oignons"
+    },
+    {
+      "amount": "1",
+      "name": "poivron"
+    },
+    {
+      "amount": "2 c. à s.",
+      "name": "concentré de tomate"
+    },
+    {
+      "amount": "500 ml",
+      "name": "bouillon"
+    },
+    {
+      "amount": "1 c. à s.",
+      "name": "paprika doux"
+    },
+    {
+      "amount": "1 c. à c.",
+      "name": "carvi"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Hacher les oignons",
+      "instruction": "Mettre les oignons dans le bol.",
+      "durationSeconds": 8,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter huile et cuire.",
+      "durationSeconds": 600,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter le bœuf",
+      "instruction": "Ajouter viande, concentré, paprika et carvi.",
+      "durationSeconds": 480,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mijoter",
+      "instruction": "Ajouter bouillon et poivron puis cuire doucement.",
+      "durationSeconds": 5400,
+      "temperatureC": 95,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajuster",
+      "instruction": "Vérifier la tendreté et prolonger si nécessaire.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}

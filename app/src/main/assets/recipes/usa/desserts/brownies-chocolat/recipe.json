@@ -1,0 +1,93 @@
+{
+  "id": "usa-desserts-brownies-chocolat",
+  "title": "Brownies chocolat",
+  "country": "usa",
+  "countryLabel": "États-Unis",
+  "flag": "🇺🇸",
+  "category": "desserts",
+  "categoryLabel": "Desserts",
+  "servings": 4,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "difficulty": "Facile",
+  "description": "Brownies fondants, pâte homogène en quelques étapes.",
+  "image": "image.svg",
+  "ingredients": [
+    {
+      "amount": "200 g",
+      "name": "chocolat noir"
+    },
+    {
+      "amount": "150 g",
+      "name": "beurre"
+    },
+    {
+      "amount": "150 g",
+      "name": "sucre"
+    },
+    {
+      "amount": "3",
+      "name": "œufs"
+    },
+    {
+      "amount": "90 g",
+      "name": "farine"
+    },
+    {
+      "amount": "80 g",
+      "name": "noix"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Fondre",
+      "instruction": "Mettre chocolat et beurre dans le bol.",
+      "durationSeconds": 300,
+      "temperatureC": 50,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter sucre et œufs",
+      "instruction": "Ajouter sucre puis œufs.",
+      "durationSeconds": 40,
+      "temperatureC": 0,
+      "speed": "4",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter farine",
+      "instruction": "Ajouter farine et mélanger brièvement.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter noix",
+      "instruction": "Ajouter les noix et mélanger à la spatule.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire",
+      "instruction": "Verser dans un moule et cuire au four à 175 °C en gardant le cœur fondant.",
+      "durationSeconds": 1500,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    }
+  ]
+}
