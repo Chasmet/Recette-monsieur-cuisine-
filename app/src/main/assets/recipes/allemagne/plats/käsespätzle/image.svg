@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
-<rect width="800" height="500" rx="34" fill="#f1e9da"/><circle cx="545" cy="250" r="8" fill="#545d48" opacity="0.10"/><circle cx="300" cy="320" r="12" fill="#545d48" opacity="0.10"/><circle cx="188" cy="324" r="16" fill="#545d48" opacity="0.10"/><circle cx="499" cy="193" r="8" fill="#545d48" opacity="0.10"/><circle cx="538" cy="316" r="12" fill="#545d48" opacity="0.10"/><circle cx="543" cy="99" r="16" fill="#545d48" opacity="0.10"/><circle cx="137" cy="85" r="8" fill="#545d48" opacity="0.10"/>
-<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">🇩🇪</text>
-<ellipse cx="400" cy="315" rx="205" ry="78" fill="#7b5135"/><path d="M285 285 C330 220 370 350 415 265 S500 330 525 260" fill="none" stroke="#efcc69" stroke-width="28" stroke-linecap="round"/><circle cx="355" cy="270" r="18" fill="#d3a93b"/><circle cx="455" cy="300" r="16" fill="#6d9654"/>
-<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
-<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">Käsespätzle</text>
-</svg>

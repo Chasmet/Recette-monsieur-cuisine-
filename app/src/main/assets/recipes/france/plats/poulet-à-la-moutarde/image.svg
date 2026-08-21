@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
-<rect width="800" height="500" rx="34" fill="#f6ead7"/><circle cx="650" cy="155" r="8" fill="#355c7d" opacity="0.10"/><circle cx="313" cy="276" r="12" fill="#355c7d" opacity="0.10"/><circle cx="352" cy="303" r="16" fill="#355c7d" opacity="0.10"/><circle cx="439" cy="304" r="8" fill="#355c7d" opacity="0.10"/><circle cx="449" cy="229" r="12" fill="#355c7d" opacity="0.10"/><circle cx="369" cy="94" r="16" fill="#355c7d" opacity="0.10"/><circle cx="116" cy="85" r="8" fill="#355c7d" opacity="0.10"/>
-<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">🇫🇷</text>
-<ellipse cx="400" cy="315" rx="210" ry="80" fill="#d94b3d"/><path d="M285 280 Q335 205 420 245 Q500 220 525 300 Q455 350 360 330 Q300 340 285 280Z" fill="#a95f47"/><path d="M330 270 Q395 240 470 280" fill="none" stroke="#f1c58e" stroke-width="13"/><circle cx="500" cy="315" r="22" fill="#70964e"/>
-<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
-<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">Poulet à la moutarde</text>
-</svg>

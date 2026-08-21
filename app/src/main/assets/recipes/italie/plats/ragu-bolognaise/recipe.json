@@ -11,7 +11,7 @@
   "cookMinutes": 60,
   "difficulty": "Facile",
   "description": "Sauce bolognaise mijotée au robot, à servir avec pâtes ou polenta.",
-  "image": "image.svg",
+  "image": "image.png",
   "ingredients": [
     {
       "amount": "500 g",

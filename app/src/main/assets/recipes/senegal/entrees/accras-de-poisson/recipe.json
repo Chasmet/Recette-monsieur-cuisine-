@@ -11,7 +11,7 @@
   "cookMinutes": 20,
   "difficulty": "Facile",
   "description": "Bouchées de poisson épicées, faciles à préparer au robot avant cuisson.",
-  "image": "image.svg",
+  "image": "image.png",
   "ingredients": [
     {
       "amount": "300 g",

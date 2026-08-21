@@ -11,7 +11,7 @@
   "cookMinutes": 60,
   "difficulty": "Facile",
   "description": "Cheesecake allemand au fromage blanc, appareil préparé au robot.",
-  "image": "image.svg",
+  "image": "image.png",
   "ingredients": [
     {
       "amount": "500 g",

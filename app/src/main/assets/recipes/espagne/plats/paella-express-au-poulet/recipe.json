@@ -11,7 +11,7 @@
   "cookMinutes": 35,
   "difficulty": "Facile",
   "description": "Version robot inspirée de la paella, avec riz safrané, poivron et poulet.",
-  "image": "image.svg",
+  "image": "image.png",
   "ingredients": [
     {
       "amount": "350 g",

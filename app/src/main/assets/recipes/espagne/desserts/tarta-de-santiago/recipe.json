@@ -11,7 +11,7 @@
   "cookMinutes": 30,
   "difficulty": "Facile",
   "description": "Gâteau espagnol aux amandes, pâte préparée en moins d'une minute au robot.",
-  "image": "image.svg",
+  "image": "image.png",
   "ingredients": [
     {
       "amount": "250 g",
