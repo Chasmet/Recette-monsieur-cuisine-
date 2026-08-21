@@ -19,7 +19,7 @@ public final class AssetImages {
                 return;
             }
         } catch (Exception ignored) {}
-        view.setImageResource(R.mipmap.ic_launcher);
+        view.setImageResource(R.drawable.app_logo);
         view.setScaleType(ImageView.ScaleType.CENTER_CROP);
     }
 }
