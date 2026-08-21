@@ -4,7 +4,7 @@
    <Button android:id="@+id/backButton" android:layout_width="wrap_content" android:layout_height="48dp" android:text="‹" android:textSize="28sp"/>
    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="RECETTES  Monsieur Cuisine" android:textStyle="bold" android:textColor="#FFFFFF" android:textSize="18sp"/>
   </LinearLayout>
-  <WebView android:id="@+id/hero" android:layout_width="match_parent" android:layout_height="260dp" android:background="#211208"/>
+  <ImageView android:id="@+id/hero" android:layout_width="match_parent" android:layout_height="260dp" android:scaleType="centerCrop" android:background="#211208" android:contentDescription="Illustration de la recette"/>
   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
    <TextView android:id="@+id/recipeTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="30sp" android:textStyle="bold" android:textColor="@color/ink"/>
    <TextView android:id="@+id/meta" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:textSize="15sp" android:textColor="#B65B08" android:textStyle="bold"/>
