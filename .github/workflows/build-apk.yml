@@ -19,6 +19,15 @@ jobs:
           base64 -d mime-copy-app.tar.gz.b64 > mime-copy-app.tar.gz
           tar -xzf mime-copy-app.tar.gz
 
+      - name: Patch Android manifest labels
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('mime-copy-app/app/src/main/AndroidManifest.xml')
+          s = p.read_text(encoding='utf-8').replace('Mime & Copie', 'Mime &amp; Copie')
+          p.write_text(s, encoding='utf-8')
+          PY
+
       - name: Setup Java 17
         uses: actions/setup-java@v4
         with:
