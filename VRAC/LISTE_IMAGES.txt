@@ -13,13 +13,11 @@ Allemagne | Desserts | Gâteau Forêt-Noire | allemagne-desserts-gâteau-forêt-
 Allemagne | Desserts | Gâteau marbré | allemagne-desserts-gâteau-marbré.jpg
 Allemagne | Desserts | Gâteau noisette | allemagne-desserts-gâteau-noisette.jpg
 Allemagne | Desserts | Käsekuchen | allemagne-desserts-kasekuchen.jpg
-Allemagne | Desserts | Käsekuchen | allemagne-desserts-käsekuchen.jpg
 Allemagne | Desserts | Lebkuchen | allemagne-desserts-lebkuchen.jpg
 Allemagne | Desserts | Milchreis | allemagne-desserts-milchreis.jpg
 Allemagne | Desserts | Pudding chocolat | allemagne-desserts-pudding-chocolat.jpg
 Allemagne | Desserts | Pudding vanille | allemagne-desserts-pudding-vanille.jpg
 Allemagne | Desserts | Pâte à strudel | allemagne-desserts-pâte-à-strudel.jpg
-Allemagne | Desserts | Rote Grütze | allemagne-desserts-rote-grutze.jpg
 Allemagne | Desserts | Rote Grütze | allemagne-desserts-rote-grütze.jpg
 Allemagne | Desserts | Semoule cerise | allemagne-desserts-semoule-cerise.jpg
 Allemagne | Desserts | Streuselkuchen | allemagne-desserts-streuselkuchen.jpg
@@ -72,7 +70,6 @@ Espagne | Desserts | Arroz con leche | espagne-desserts-arroz-con-leche.jpg
 Espagne | Desserts | Bizcocho yaourt | espagne-desserts-bizcocho-yaourt.jpg
 Espagne | Desserts | Churros | espagne-desserts-churros.jpg
 Espagne | Desserts | Compote coing | espagne-desserts-compote-coing.jpg
-Espagne | Desserts | Crema catalana | espagne-desserts-crema-catalana.jpg
 Espagne | Desserts | Crème amande | espagne-desserts-crème-amande.jpg
 Espagne | Desserts | Crème au citron | espagne-desserts-crème-au-citron.jpg
 Espagne | Desserts | Crème catalane | espagne-desserts-crème-catalane.jpg
@@ -93,13 +90,11 @@ Espagne | Entrées | Ajo blanco | espagne-entrees-ajo-blanco.jpg
 Espagne | Entrées | Alioli | espagne-entrees-alioli.jpg
 Espagne | Entrées | Champignons à l’ail | espagne-entrees-champignons-à-l-ail.jpg
 Espagne | Entrées | Croquetas au jambon | espagne-entrees-croquetas-au-jambon.jpg
-Espagne | Entrées | Croquetas jambon | espagne-entrees-croquetas-jambon.jpg
 Espagne | Entrées | Croquetas poulet | espagne-entrees-croquetas-poulet.jpg
 Espagne | Entrées | Crème de courgette | espagne-entrees-crème-de-courgette.jpg
 Espagne | Entrées | Crème de poivron | espagne-entrees-crème-de-poivron.jpg
 Espagne | Entrées | Empanadillas thon | espagne-entrees-empanadillas-thon.jpg
 Espagne | Entrées | Gazpacho | espagne-entrees-gazpacho.jpg
-Espagne | Entrées | Gazpacho andalou | espagne-entrees-gazpacho-andalou.jpg
 Espagne | Entrées | Patatas bravas sauce | espagne-entrees-patatas-bravas-sauce.jpg
 Espagne | Entrées | Pimientos sauce | espagne-entrees-pimientos-sauce.jpg
 Espagne | Entrées | Romesco | espagne-entrees-romesco.jpg
@@ -133,13 +128,11 @@ Espagne | Plats | Riz aux légumes | espagne-plats-riz-aux-légumes.jpg
 Espagne | Plats | Riz noir | espagne-plats-riz-noir.jpg
 Espagne | Plats | Soupe de poisson espagnole | espagne-plats-soupe-de-poisson-espagnole.jpg
 Espagne | Plats | Tortilla de pommes de terre | espagne-plats-tortilla-de-pommes-de-terre.jpg
-Espagne | Plats | Tortilla espagnole | espagne-plats-tortilla-espagnole.jpg
 France | Desserts | Brioche | france-desserts-brioche.jpg
 France | Desserts | Chouquettes | france-desserts-chouquettes.jpg
 France | Desserts | Clafoutis aux cerises | france-desserts-clafoutis-aux-cerises.jpg
 France | Desserts | Compote de pommes | france-desserts-compote-de-pommes.jpg
 France | Desserts | Crème brûlée | france-desserts-creme-brulee.jpg
-France | Desserts | Crème brûlée | france-desserts-crème-brûlée.jpg
 France | Desserts | Crème caramel | france-desserts-crème-caramel.jpg
 France | Desserts | Crème pâtissière | france-desserts-crème-pâtissière.jpg
 France | Desserts | Financiers | france-desserts-financiers.jpg
@@ -169,12 +162,10 @@ France | Entrées | Soupe à l'oignon | france-entrees-soupe-a-l-oignon.jpg
 France | Entrées | Soupe de courgettes | france-entrees-soupe-de-courgettes.jpg
 France | Entrées | Tapenade | france-entrees-tapenade.jpg
 France | Entrées | Terrine de légumes | france-entrees-terrine-de-légumes.jpg
-France | Entrées | Œufs mimosa | france-entrees-ufs-mimosa.jpg
 France | Entrées | Velouté d’asperges | france-entrees-velouté-d-asperges.jpg
 France | Entrées | Velouté de potimarron | france-entrees-velouté-de-potimarron.jpg
 France | Plats | Aligot | france-plats-aligot.jpg
 France | Plats | Blanquette de veau | france-plats-blanquette-de-veau.jpg
-France | Plats | Boeuf bourguignon | france-plats-boeuf-bourguignon.jpg
 France | Plats | Boeuf carottes | france-plats-boeuf-carottes.jpg
 France | Plats | Brandade de morue | france-plats-brandade-de-morue.jpg
 France | Plats | Bœuf bourguignon | france-plats-buf-bourguignon.jpg
@@ -245,7 +236,6 @@ Italie | Plats | Lasagnes végétariennes | italie-plats-lasagnes-végétarienne
 Italie | Plats | Minestrone | italie-plats-minestrone.jpg
 Italie | Plats | Osso buco | italie-plats-osso-buco.jpg
 Italie | Plats | Pasta e fagioli | italie-plats-pasta-e-fagioli.jpg
-Italie | Plats | Polenta crémeuse au parmesan | italie-plats-polenta-cremeuse-au-parmesan.jpg
 Italie | Plats | Polenta crémeuse | italie-plats-polenta-crémeuse.jpg
 Italie | Plats | Polpette sauce tomate | italie-plats-polpette-sauce-tomate.jpg
 Italie | Plats | Poulet cacciatore | italie-plats-poulet-cacciatore.jpg
@@ -283,7 +273,6 @@ Sénégal | Desserts | Lakh | senegal-desserts-lakh.jpg
 Sénégal | Desserts | Ngalakh | senegal-desserts-ngalakh.jpg
 Sénégal | Desserts | Sombi | senegal-desserts-sombi.jpg
 Sénégal | Desserts | Sombi coco | senegal-desserts-sombi-coco.jpg
-Sénégal | Desserts | Thiagry | senegal-desserts-thiagry.jpg
 Sénégal | Desserts | Thiakry | senegal-desserts-thiakry.jpg
 Sénégal | Desserts | Thiéré lakh | senegal-desserts-thiéré-lakh.jpg
 Sénégal | Desserts | Yaourt maison | senegal-desserts-yaourt-maison.jpg
@@ -311,7 +300,6 @@ Sénégal | Plats | Domoda poisson | senegal-plats-domoda-poisson.jpg
 Sénégal | Plats | Lakhou bissap salé | senegal-plats-lakhou-bissap-salé.jpg
 Sénégal | Plats | Lentilles sénégalaises | senegal-plats-lentilles-sénégalaises.jpg
 Sénégal | Plats | Mafé de bœuf | senegal-plats-mafe-de-buf.jpg
-Sénégal | Plats | Mafé boeuf | senegal-plats-mafé-boeuf.jpg
 Sénégal | Plats | Mafé poulet | senegal-plats-mafé-poulet.jpg
 Sénégal | Plats | Mbaxalou saloum | senegal-plats-mbaxalou-saloum.jpg
 Sénégal | Plats | Ndambe | senegal-plats-ndambe.jpg
@@ -333,10 +321,8 @@ Sénégal | Plats | Yassa poulet | senegal-plats-yassa-poulet.jpg
 États-Unis | Desserts | Apple pie | usa-desserts-apple-pie.jpg
 États-Unis | Desserts | Apple pie filling | usa-desserts-apple-pie-filling.jpg
 États-Unis | Desserts | Banana bread | usa-desserts-banana-bread.jpg
-États-Unis | Desserts | Brownies | usa-desserts-brownies.jpg
 États-Unis | Desserts | Brownies chocolat | usa-desserts-brownies-chocolat.jpg
 États-Unis | Desserts | Carrot cake | usa-desserts-carrot-cake.jpg
-États-Unis | Desserts | Cheesecake | usa-desserts-cheesecake.jpg
 États-Unis | Desserts | Chocolate pudding | usa-desserts-chocolate-pudding.jpg
 États-Unis | Desserts | Cinnamon rolls | usa-desserts-cinnamon-rolls.jpg
 États-Unis | Desserts | Cookies chocolat | usa-desserts-cookies-chocolat.jpg
@@ -354,11 +340,9 @@ Sénégal | Plats | Yassa poulet | senegal-plats-yassa-poulet.jpg
 États-Unis | Desserts | Rice pudding | usa-desserts-rice-pudding.jpg
 États-Unis | Desserts | Vanilla pudding | usa-desserts-vanilla-pudding.jpg
 États-Unis | Entrées | Bean dip | usa-entrees-bean-dip.jpg
-États-Unis | Entrées | Buffalo chicken dip | usa-entrees-buffalo-chicken-dip.jpg
 États-Unis | Entrées | Buffalo dip | usa-entrees-buffalo-dip.jpg
 États-Unis | Entrées | Cheese dip | usa-entrees-cheese-dip.jpg
 États-Unis | Entrées | Coleslaw | usa-entrees-coleslaw.jpg
-États-Unis | Entrées | Coleslaw crémeux | usa-entrees-coleslaw-cremeux.jpg
 États-Unis | Entrées | Corn chowder | usa-entrees-corn-chowder.jpg
 États-Unis | Entrées | Corn dip | usa-entrees-corn-dip.jpg
 États-Unis | Entrées | Corn soup | usa-entrees-corn-soup.jpg
@@ -390,7 +374,6 @@ Sénégal | Plats | Yassa poulet | senegal-plats-yassa-poulet.jpg
 États-Unis | Plats | Mac and cheese | usa-plats-mac-and-cheese.jpg
 États-Unis | Plats | Mashed potatoes | usa-plats-mashed-potatoes.jpg
 États-Unis | Plats | Meatloaf | usa-plats-meatloaf.jpg
-États-Unis | Plats | Pulled chicken | usa-plats-pulled-chicken.jpg
 États-Unis | Plats | Pulled chicken barbecue | usa-plats-pulled-chicken-barbecue.jpg
 États-Unis | Plats | Sloppy joe | usa-plats-sloppy-joe.jpg
 États-Unis | Plats | Sweet potato mash | usa-plats-sweet-potato-mash.jpg
