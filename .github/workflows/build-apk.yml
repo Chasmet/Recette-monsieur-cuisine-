@@ -28,8 +28,9 @@ jobs:
         with:
           gradle-version: '8.7'
       - name: Expand recipe catalogue
-        if: ${{ hashFiles('tools/expand_catalog.py') != '' }}
         run: python3 tools/expand_catalog.py
+      - name: Remove duplicate recipes
+        run: python3 tools/clean_duplicates.py
       - name: Prepare and import VRAC illustrations
         run: python3 tools/prepare_vrac.py
       - name: Generate Gradle wrapper
@@ -38,14 +39,14 @@ jobs:
         run: chmod +x gradlew
       - name: Build real debug APK
         run: ./gradlew assembleDebug --stacktrace
-      - name: Persist catalogue and VRAC index after successful build
+      - name: Persist clean catalogue after successful build
         if: github.event_name == 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app/src/main/assets/recipes VRAC/LISTE_IMAGES.txt
+          git add -A app/src/main/assets/recipes VRAC/LISTE_IMAGES.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Met à jour le catalogue et les illustrations VRAC [skip ci]"
+            git commit -m "Nettoie les doublons et régénère le catalogue [skip ci]"
             git push origin HEAD:"${GITHUB_HEAD_REF}"
           fi
       - name: Upload APK artifact
