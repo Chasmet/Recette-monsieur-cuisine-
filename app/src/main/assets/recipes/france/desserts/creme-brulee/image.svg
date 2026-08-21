@@ -1,20 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#FFF9F0"/>
-    <stop offset="1" stop-color="#FFFFFF"/>
-  </linearGradient>
-</defs>
-<rect width="800" height="450" rx="36" fill="url(#bg)"/>
-<rect x="0" y="0" width="18" height="450" fill="#234A9B"/>
-<rect x="18" y="0" width="18" height="450" fill="#FFFFFF"/>
-<rect x="36" y="0" width="18" height="450" fill="#EF4135"/>
-
-        <path d="M300 320 L330 170 L500 170 L540 320 Z" fill="#F6D9A7" stroke="#234A9B" stroke-width="12"/>
-        <path d="M330 170 Q415 110 500 170 Z" fill="#FFFFFF"/>
-        <circle cx="365" cy="165" r="18" fill="#EF4135"/>
-        <circle cx="445" cy="150" r="18" fill="#EF4135"/>
-        
-<text x="400" y="58" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#1B1B1B">France • Desserts</text>
-<text x="400" y="410" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#1B1B1B">Crème brûlée</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="34" fill="#f6ead7"/><circle cx="627" cy="232" r="8" fill="#355c7d" opacity="0.10"/><circle cx="148" cy="319" r="12" fill="#355c7d" opacity="0.10"/><circle cx="88" cy="324" r="16" fill="#355c7d" opacity="0.10"/><circle cx="649" cy="212" r="8" fill="#355c7d" opacity="0.10"/><circle cx="557" cy="317" r="12" fill="#355c7d" opacity="0.10"/><circle cx="545" cy="99" r="16" fill="#355c7d" opacity="0.10"/><circle cx="138" cy="85" r="8" fill="#355c7d" opacity="0.10"/>
+<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">🇫🇷</text>
+<ellipse cx="400" cy="265" rx="180" ry="72" fill="#355c7d"/><path d="M220 260 Q400 430 580 260" fill="#d94b3d"/><ellipse cx="400" cy="260" rx="145" ry="48" fill="#f2bd4a"/><circle cx="350" cy="250" r="18" fill="#f7e2a1"/><circle cx="430" cy="270" r="16" fill="#7b9d54"/><circle cx="475" cy="245" r="13" fill="#c95b44"/>
+<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
+<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">Crème brûlée</text>
 </svg>

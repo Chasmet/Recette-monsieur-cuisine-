@@ -1,0 +1,66 @@
+LISTE DES ILLUSTRATIONS À DÉPOSER DANS VRAC
+Formats acceptés : .jpg .jpeg .png .webp
+Nom exact attendu : <id-recette>.jpg (ou .png/.webp)
+
+États-Unis | Desserts | Apple pie | usa-desserts-apple-pie.jpg
+États-Unis | Desserts | Apple pie filling | usa-desserts-apple-pie-filling.jpg
+États-Unis | Desserts | Banana bread | usa-desserts-banana-bread.jpg
+États-Unis | Desserts | Brownies chocolat | usa-desserts-brownies-chocolat.jpg
+États-Unis | Desserts | Carrot cake | usa-desserts-carrot-cake.jpg
+États-Unis | Desserts | Chocolate pudding | usa-desserts-chocolate-pudding.jpg
+États-Unis | Desserts | Cinnamon rolls | usa-desserts-cinnamon-rolls.jpg
+États-Unis | Desserts | Cookies chocolat | usa-desserts-cookies-chocolat.jpg
+États-Unis | Desserts | Cupcakes vanille | usa-desserts-cupcakes-vanille.jpg
+États-Unis | Desserts | Donuts pâte | usa-desserts-donuts-pâte.jpg
+États-Unis | Desserts | Fudge chocolat | usa-desserts-fudge-chocolat.jpg
+États-Unis | Desserts | Lemon curd | usa-desserts-lemon-curd.jpg
+États-Unis | Desserts | Milkshake vanille | usa-desserts-milkshake-vanille.jpg
+États-Unis | Desserts | Muffins myrtilles | usa-desserts-muffins-myrtilles.jpg
+États-Unis | Desserts | New York cheesecake | usa-desserts-new-york-cheesecake.jpg
+États-Unis | Desserts | Pancakes | usa-desserts-pancakes.jpg
+États-Unis | Desserts | Peanut butter cookies | usa-desserts-peanut-butter-cookies.jpg
+États-Unis | Desserts | Pumpkin pie filling | usa-desserts-pumpkin-pie-filling.jpg
+États-Unis | Desserts | Red velvet cake | usa-desserts-red-velvet-cake.jpg
+États-Unis | Desserts | Rice pudding | usa-desserts-rice-pudding.jpg
+États-Unis | Desserts | Vanilla pudding | usa-desserts-vanilla-pudding.jpg
+États-Unis | Entrées | Bean dip | usa-entrees-bean-dip.jpg
+États-Unis | Entrées | Buffalo dip | usa-entrees-buffalo-dip.jpg
+États-Unis | Entrées | Cheese dip | usa-entrees-cheese-dip.jpg
+États-Unis | Entrées | Coleslaw | usa-entrees-coleslaw.jpg
+États-Unis | Entrées | Corn chowder | usa-entrees-corn-chowder.jpg
+États-Unis | Entrées | Corn dip | usa-entrees-corn-dip.jpg
+États-Unis | Entrées | Corn soup | usa-entrees-corn-soup.jpg
+États-Unis | Entrées | Crab dip | usa-entrees-crab-dip.jpg
+États-Unis | Entrées | Deviled eggs | usa-entrees-deviled-eggs.jpg
+États-Unis | Entrées | Guacamole | usa-entrees-guacamole.jpg
+États-Unis | Entrées | Macaroni salad | usa-entrees-macaroni-salad.jpg
+États-Unis | Entrées | Potato salad | usa-entrees-potato-salad.jpg
+États-Unis | Entrées | Pumpkin soup | usa-entrees-pumpkin-soup.jpg
+États-Unis | Entrées | Ranch dip | usa-entrees-ranch-dip.jpg
+États-Unis | Entrées | Salsa tomate | usa-entrees-salsa-tomate.jpg
+États-Unis | Entrées | Spinach artichoke dip | usa-entrees-spinach-artichoke-dip.jpg
+États-Unis | Plats | Baked beans | usa-plats-baked-beans.jpg
+États-Unis | Plats | BBQ pulled pork | usa-plats-bbq-pulled-pork.jpg
+États-Unis | Plats | Beef stew | usa-plats-beef-stew.jpg
+États-Unis | Plats | Broccoli cheddar soup | usa-plats-broccoli-cheddar-soup.jpg
+États-Unis | Plats | Buffalo chicken dip | usa-plats-buffalo-chicken-dip.jpg
+États-Unis | Plats | Cajun rice | usa-plats-cajun-rice.jpg
+États-Unis | Plats | Cheeseburger soup | usa-plats-cheeseburger-soup.jpg
+États-Unis | Plats | Chicken noodle soup | usa-plats-chicken-noodle-soup.jpg
+États-Unis | Plats | Chicken pot pie filling | usa-plats-chicken-pot-pie-filling.jpg
+États-Unis | Plats | Chili con carne | usa-plats-chili-con-carne.jpg
+États-Unis | Plats | Clam chowder | usa-plats-clam-chowder.jpg
+États-Unis | Plats | Corn chowder | usa-plats-corn-chowder.jpg
+États-Unis | Plats | Creamed corn | usa-plats-creamed-corn.jpg
+États-Unis | Plats | Gravy | usa-plats-gravy.jpg
+États-Unis | Plats | Gumbo poulet | usa-plats-gumbo-poulet.jpg
+États-Unis | Plats | Jambalaya | usa-plats-jambalaya.jpg
+États-Unis | Plats | Mac and cheese | usa-plats-mac-and-cheese.jpg
+États-Unis | Plats | Mashed potatoes | usa-plats-mashed-potatoes.jpg
+États-Unis | Plats | Meatloaf | usa-plats-meatloaf.jpg
+États-Unis | Plats | Pulled chicken barbecue | usa-plats-pulled-chicken-barbecue.jpg
+États-Unis | Plats | Sloppy joe | usa-plats-sloppy-joe.jpg
+États-Unis | Plats | Sweet potato mash | usa-plats-sweet-potato-mash.jpg
+États-Unis | Plats | Tomato soup | usa-plats-tomato-soup.jpg
+États-Unis | Plats | Turkey chili | usa-plats-turkey-chili.jpg
+États-Unis | Plats | White chicken chili | usa-plats-white-chicken-chili.jpg

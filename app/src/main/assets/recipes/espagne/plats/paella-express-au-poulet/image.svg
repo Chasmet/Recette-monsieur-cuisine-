@@ -1,21 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#FFF9F0"/>
-    <stop offset="1" stop-color="#F1BF00"/>
-  </linearGradient>
-</defs>
-<rect width="800" height="450" rx="36" fill="url(#bg)"/>
-<rect x="0" y="0" width="18" height="450" fill="#AA151B"/>
-<rect x="18" y="0" width="18" height="450" fill="#F1BF00"/>
-<rect x="36" y="0" width="18" height="450" fill="#AA151B"/>
-
-        <ellipse cx="400" cy="250" rx="235" ry="120" fill="#FFFFFF" stroke="#AA151B" stroke-width="12"/>
-        <ellipse cx="400" cy="250" rx="180" ry="82" fill="#F4D7A1"/>
-        <circle cx="330" cy="235" r="38" fill="#AA151B" opacity=".85"/>
-        <circle cx="405" cy="270" r="44" fill="#8C5A32" opacity=".85"/>
-        <circle cx="475" cy="225" r="35" fill="#5A8F3D" opacity=".85"/>
-        
-<text x="400" y="58" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="700" fill="#1B1B1B">Espagne • Plats</text>
-<text x="400" y="410" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#1B1B1B">Paella express au poulet</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="34" fill="#fff0cf"/><circle cx="297" cy="302" r="8" fill="#6d3f34" opacity="0.10"/><circle cx="269" cy="379" r="12" fill="#6d3f34" opacity="0.10"/><circle cx="103" cy="215" r="16" fill="#6d3f34" opacity="0.10"/><circle cx="245" cy="93" r="8" fill="#6d3f34" opacity="0.10"/><circle cx="588" cy="198" r="12" fill="#6d3f34" opacity="0.10"/><circle cx="306" cy="92" r="16" fill="#6d3f34" opacity="0.10"/><circle cx="108" cy="85" r="8" fill="#6d3f34" opacity="0.10"/>
+<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">🇪🇸</text>
+<ellipse cx="400" cy="315" rx="205" ry="78" fill="#c94a35"/><ellipse cx="400" cy="285" rx="165" ry="92" fill="#fff3c6"/><circle cx="335" cy="255" r="20" fill="#e3a62f"/><circle cx="430" cy="245" r="18" fill="#72934d"/><circle cx="475" cy="285" r="16" fill="#6d3f34"/><circle cx="365" cy="310" r="15" fill="#d88243"/>
+<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
+<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">Paella express au poulet</text>
 </svg>

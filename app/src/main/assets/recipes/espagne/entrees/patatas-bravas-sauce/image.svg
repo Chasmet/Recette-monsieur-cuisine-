@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="800" height="500" rx="36" fill="#151a20"/><circle cx="400" cy="215" r="145" fill="#e9b949"/><circle cx="400" cy="215" r="105" fill="#f7f2e8"/><text x="400" y="220" text-anchor="middle" font-size="72">🇪🇸</text><text x="400" y="405" text-anchor="middle" font-family="sans-serif" font-size="34" fill="white">Patatas bravas sauce</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="34" fill="#fff0cf"/><circle cx="552" cy="357" r="8" fill="#6d3f34" opacity="0.10"/><circle cx="139" cy="364" r="12" fill="#6d3f34" opacity="0.10"/><circle cx="574" cy="121" r="16" fill="#6d3f34" opacity="0.10"/><circle cx="548" cy="274" r="8" fill="#6d3f34" opacity="0.10"/><circle cx="219" cy="134" r="12" fill="#6d3f34" opacity="0.10"/><circle cx="178" cy="88" r="16" fill="#6d3f34" opacity="0.10"/><circle cx="92" cy="85" r="8" fill="#6d3f34" opacity="0.10"/>
+<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">🇪🇸</text>
+<ellipse cx="400" cy="265" rx="180" ry="72" fill="#6d3f34"/><path d="M220 260 Q400 430 580 260" fill="#c94a35"/><ellipse cx="400" cy="260" rx="145" ry="48" fill="#e3a62f"/><circle cx="350" cy="250" r="18" fill="#f7e2a1"/><circle cx="430" cy="270" r="16" fill="#7b9d54"/><circle cx="475" cy="245" r="13" fill="#c95b44"/>
+<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
+<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">Patatas bravas sauce</text>
+</svg>

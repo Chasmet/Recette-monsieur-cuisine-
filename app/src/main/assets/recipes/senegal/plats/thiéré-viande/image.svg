@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="800" height="500" rx="36" fill="#151a20"/><circle cx="400" cy="215" r="145" fill="#e9b949"/><circle cx="400" cy="215" r="105" fill="#f7f2e8"/><text x="400" y="220" text-anchor="middle" font-size="72">🇸🇳</text><text x="400" y="405" text-anchor="middle" font-family="sans-serif" font-size="34" fill="white">Thiéré viande</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="34" fill="#fff1bf"/><circle cx="515" cy="120" r="8" fill="#f2c84b" opacity="0.10"/><circle cx="459" cy="274" r="12" fill="#f2c84b" opacity="0.10"/><circle cx="452" cy="190" r="16" fill="#f2c84b" opacity="0.10"/><circle cx="532" cy="354" r="8" fill="#f2c84b" opacity="0.10"/><circle cx="299" cy="139" r="12" fill="#f2c84b" opacity="0.10"/><circle cx="188" cy="88" r="16" fill="#f2c84b" opacity="0.10"/><circle cx="93" cy="85" r="8" fill="#f2c84b" opacity="0.10"/>
+<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">🇸🇳</text>
+<ellipse cx="400" cy="315" rx="210" ry="80" fill="#d66b2c"/><path d="M285 280 Q335 205 420 245 Q500 220 525 300 Q455 350 360 330 Q300 340 285 280Z" fill="#a95f47"/><path d="M330 270 Q395 240 470 280" fill="none" stroke="#f1c58e" stroke-width="13"/><circle cx="500" cy="315" r="22" fill="#70964e"/>
+<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
+<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">Thiéré viande</text>
+</svg>

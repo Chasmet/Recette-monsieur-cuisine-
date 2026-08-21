@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="800" height="500" rx="36" fill="#151a20"/><circle cx="400" cy="215" r="145" fill="#e9b949"/><circle cx="400" cy="215" r="105" fill="#f7f2e8"/><text x="400" y="220" text-anchor="middle" font-size="72">🇪🇸</text><text x="400" y="405" text-anchor="middle" font-family="sans-serif" font-size="34" fill="white">Riz noir</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="34" fill="#fff0cf"/><circle cx="481" cy="286" r="8" fill="#6d3f34" opacity="0.10"/><circle cx="130" cy="285" r="12" fill="#6d3f34" opacity="0.10"/><circle cx="330" cy="97" r="16" fill="#6d3f34" opacity="0.10"/><circle cx="436" cy="254" r="8" fill="#6d3f34" opacity="0.10"/><circle cx="449" cy="189" r="12" fill="#6d3f34" opacity="0.10"/><circle cx="288" cy="91" r="16" fill="#6d3f34" opacity="0.10"/><circle cx="106" cy="85" r="8" fill="#6d3f34" opacity="0.10"/>
+<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">🇪🇸</text>
+<ellipse cx="400" cy="315" rx="205" ry="78" fill="#c94a35"/><ellipse cx="400" cy="285" rx="165" ry="92" fill="#fff3c6"/><circle cx="335" cy="255" r="20" fill="#e3a62f"/><circle cx="430" cy="245" r="18" fill="#72934d"/><circle cx="475" cy="285" r="16" fill="#6d3f34"/><circle cx="365" cy="310" r="15" fill="#d88243"/>
+<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
+<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">Riz noir</text>
+</svg>

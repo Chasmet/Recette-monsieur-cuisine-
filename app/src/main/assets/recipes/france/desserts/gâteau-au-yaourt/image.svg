@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="800" height="500" rx="36" fill="#151a20"/><circle cx="400" cy="215" r="145" fill="#e9b949"/><circle cx="400" cy="215" r="105" fill="#f7f2e8"/><text x="400" y="220" text-anchor="middle" font-size="72">🇫🇷</text><text x="400" y="405" text-anchor="middle" font-family="sans-serif" font-size="34" fill="white">Gâteau au yaourt</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="34" fill="#f6ead7"/><circle cx="98" cy="203" r="8" fill="#355c7d" opacity="0.10"/><circle cx="82" cy="336" r="12" fill="#355c7d" opacity="0.10"/><circle cx="567" cy="306" r="16" fill="#355c7d" opacity="0.10"/><circle cx="140" cy="117" r="8" fill="#355c7d" opacity="0.10"/><circle cx="412" cy="105" r="12" fill="#355c7d" opacity="0.10"/><circle cx="121" cy="86" r="16" fill="#355c7d" opacity="0.10"/><circle cx="85" cy="85" r="8" fill="#355c7d" opacity="0.10"/>
+<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">🇫🇷</text>
+<ellipse cx="400" cy="335" rx="190" ry="62" fill="#d94b3d"/><path d="M300 315 L330 205 L500 230 L520 320Z" fill="#e3b071"/><path d="M330 205 L500 230 L480 260 L320 240Z" fill="#f2bd4a"/><circle cx="420" cy="215" r="16" fill="#f4eee1"/>
+<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
+<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">Gâteau au yaourt</text>
+</svg>

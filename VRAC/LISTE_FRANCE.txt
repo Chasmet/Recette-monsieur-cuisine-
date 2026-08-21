@@ -1,0 +1,65 @@
+LISTE DES ILLUSTRATIONS À DÉPOSER DANS VRAC
+Formats acceptés : .jpg .jpeg .png .webp
+Nom exact attendu : <id-recette>.jpg (ou .png/.webp)
+
+France | Desserts | Brioche | france-desserts-brioche.jpg
+France | Desserts | Chouquettes | france-desserts-chouquettes.jpg
+France | Desserts | Clafoutis aux cerises | france-desserts-clafoutis-aux-cerises.jpg
+France | Desserts | Compote de pommes | france-desserts-compote-de-pommes.jpg
+France | Desserts | Crème brûlée | france-desserts-creme-brulee.jpg
+France | Desserts | Crème caramel | france-desserts-crème-caramel.jpg
+France | Desserts | Crème pâtissière | france-desserts-crème-pâtissière.jpg
+France | Desserts | Financiers | france-desserts-financiers.jpg
+France | Desserts | Flan pâtissier | france-desserts-flan-pâtissier.jpg
+France | Desserts | Fondant au chocolat | france-desserts-fondant-au-chocolat.jpg
+France | Desserts | Ganache chocolat | france-desserts-ganache-chocolat.jpg
+France | Desserts | Gâteau au yaourt | france-desserts-gâteau-au-yaourt.jpg
+France | Desserts | Madeleines | france-desserts-madeleines.jpg
+France | Desserts | Mousse au chocolat | france-desserts-mousse-au-chocolat.jpg
+France | Desserts | Pain perdu | france-desserts-pain-perdu.jpg
+France | Desserts | Pâte à crêpes | france-desserts-pâte-à-crêpes.jpg
+France | Desserts | Riz au lait | france-desserts-riz-au-lait.jpg
+France | Desserts | Semoule au lait | france-desserts-semoule-au-lait.jpg
+France | Desserts | Tarte au citron | france-desserts-tarte-au-citron.jpg
+France | Desserts | Île flottante | france-desserts-île-flottante.jpg
+France | Entrées | Cake salé | france-entrees-cake-salé.jpg
+France | Entrées | Caviar d’aubergine | france-entrees-caviar-d-aubergine.jpg
+France | Entrées | Flan de courgettes | france-entrees-flan-de-courgettes.jpg
+France | Entrées | Gougères | france-entrees-gougères.jpg
+France | Entrées | Mousse de saumon | france-entrees-mousse-de-saumon.jpg
+France | Entrées | Oeufs mimosa | france-entrees-oeufs-mimosa.jpg
+France | Entrées | Poireaux vinaigrette | france-entrees-poireaux-vinaigrette.jpg
+France | Entrées | Pâté de campagne | france-entrees-pâté-de-campagne.jpg
+France | Entrées | Rillettes de thon | france-entrees-rillettes-de-thon.jpg
+France | Entrées | Salade de lentilles | france-entrees-salade-de-lentilles.jpg
+France | Entrées | Soupe à l'oignon | france-entrees-soupe-a-l-oignon.jpg
+France | Entrées | Soupe de courgettes | france-entrees-soupe-de-courgettes.jpg
+France | Entrées | Tapenade | france-entrees-tapenade.jpg
+France | Entrées | Terrine de légumes | france-entrees-terrine-de-légumes.jpg
+France | Entrées | Velouté d’asperges | france-entrees-velouté-d-asperges.jpg
+France | Entrées | Velouté de potimarron | france-entrees-velouté-de-potimarron.jpg
+France | Plats | Aligot | france-plats-aligot.jpg
+France | Plats | Blanquette de veau | france-plats-blanquette-de-veau.jpg
+France | Plats | Boeuf carottes | france-plats-boeuf-carottes.jpg
+France | Plats | Brandade de morue | france-plats-brandade-de-morue.jpg
+France | Plats | Bœuf bourguignon | france-plats-buf-bourguignon.jpg
+France | Plats | Cassoulet | france-plats-cassoulet.jpg
+France | Plats | Chili de lentilles | france-plats-chili-de-lentilles.jpg
+France | Plats | Coq au vin | france-plats-coq-au-vin.jpg
+France | Plats | Endives au jambon | france-plats-endives-au-jambon.jpg
+France | Plats | Filet mignon sauce champignons | france-plats-filet-mignon-sauce-champignons.jpg
+France | Plats | Gratin dauphinois | france-plats-gratin-dauphinois.jpg
+France | Plats | Hachis parmentier | france-plats-hachis-parmentier.jpg
+France | Plats | Navarin d’agneau | france-plats-navarin-d-agneau.jpg
+France | Plats | Parmentier de canard | france-plats-parmentier-de-canard.jpg
+France | Plats | Petit salé aux lentilles | france-plats-petit-salé-aux-lentilles.jpg
+France | Plats | Pot-au-feu | france-plats-pot-au-feu.jpg
+France | Plats | Poulet basquaise | france-plats-poulet-basquaise.jpg
+France | Plats | Poulet à la moutarde | france-plats-poulet-à-la-moutarde.jpg
+France | Plats | Purée maison | france-plats-purée-maison.jpg
+France | Plats | Quiche lorraine | france-plats-quiche-lorraine.jpg
+France | Plats | Ratatouille | france-plats-ratatouille.jpg
+France | Plats | Risotto aux champignons | france-plats-risotto-aux-champignons.jpg
+France | Plats | Saucisses lentilles | france-plats-saucisses-lentilles.jpg
+France | Plats | Soupe à l’oignon | france-plats-soupe-à-l-oignon.jpg
+France | Plats | Velouté de poireaux | france-plats-velouté-de-poireaux.jpg

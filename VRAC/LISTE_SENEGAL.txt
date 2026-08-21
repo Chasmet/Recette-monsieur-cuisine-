@@ -1,0 +1,67 @@
+LISTE DES ILLUSTRATIONS À DÉPOSER DANS VRAC
+Formats acceptés : .jpg .jpeg .png .webp
+Nom exact attendu : <id-recette>.jpg (ou .png/.webp)
+
+Sénégal | Desserts | Beignets banane | senegal-desserts-beignets-banane.jpg
+Sénégal | Desserts | Beignets de mil | senegal-desserts-beignets-de-mil.jpg
+Sénégal | Desserts | Beignets dougoub | senegal-desserts-beignets-dougoub.jpg
+Sénégal | Desserts | Bouillie de maïs | senegal-desserts-bouillie-de-maïs.jpg
+Sénégal | Desserts | Bouillie de mil | senegal-desserts-bouillie-de-mil.jpg
+Sénégal | Desserts | Compote mangue | senegal-desserts-compote-mangue.jpg
+Sénégal | Desserts | Confiture bissap | senegal-desserts-confiture-bissap.jpg
+Sénégal | Desserts | Confiture mangue | senegal-desserts-confiture-mangue.jpg
+Sénégal | Desserts | Crème de bissap | senegal-desserts-crème-de-bissap.jpg
+Sénégal | Desserts | Crème de bouye | senegal-desserts-crème-de-bouye.jpg
+Sénégal | Desserts | Dégué | senegal-desserts-dégué.jpg
+Sénégal | Desserts | Fondé | senegal-desserts-fondé.jpg
+Sénégal | Desserts | Gâteau banane | senegal-desserts-gâteau-banane.jpg
+Sénégal | Desserts | Gâteau coco | senegal-desserts-gâteau-coco.jpg
+Sénégal | Desserts | Lakh | senegal-desserts-lakh.jpg
+Sénégal | Desserts | Ngalakh | senegal-desserts-ngalakh.jpg
+Sénégal | Desserts | Sombi | senegal-desserts-sombi.jpg
+Sénégal | Desserts | Sombi coco | senegal-desserts-sombi-coco.jpg
+Sénégal | Desserts | Thiakry | senegal-desserts-thiakry.jpg
+Sénégal | Desserts | Thiéré lakh | senegal-desserts-thiéré-lakh.jpg
+Sénégal | Desserts | Yaourt maison | senegal-desserts-yaourt-maison.jpg
+Sénégal | Entrées | Accras de poisson | senegal-entrees-accras-de-poisson.jpg
+Sénégal | Entrées | Beignets de niébé | senegal-entrees-beignets-de-niébé.jpg
+Sénégal | Entrées | Croquettes de poisson | senegal-entrees-croquettes-de-poisson.jpg
+Sénégal | Entrées | Fataya viande | senegal-entrees-fataya-viande.jpg
+Sénégal | Entrées | Omelette sénégalaise | senegal-entrees-omelette-sénégalaise.jpg
+Sénégal | Entrées | Pastels au poisson | senegal-entrees-pastels-au-poisson.jpg
+Sénégal | Entrées | Pastels au thon | senegal-entrees-pastels-au-thon.jpg
+Sénégal | Entrées | Purée de niébé | senegal-entrees-purée-de-niébé.jpg
+Sénégal | Entrées | Salade avocat crevettes | senegal-entrees-salade-avocat-crevettes.jpg
+Sénégal | Entrées | Salade de mangue verte | senegal-entrees-salade-de-mangue-verte.jpg
+Sénégal | Entrées | Salade de niébé | senegal-entrees-salade-de-niebe.jpg
+Sénégal | Entrées | Salade sénégalaise | senegal-entrees-salade-sénégalaise.jpg
+Sénégal | Entrées | Sauce rof | senegal-entrees-sauce-rof.jpg
+Sénégal | Entrées | Soupe de poisson | senegal-entrees-soupe-de-poisson.jpg
+Sénégal | Entrées | Tartinade de poisson | senegal-entrees-tartinade-de-poisson.jpg
+Sénégal | Entrées | Vermicelles froids | senegal-entrees-vermicelles-froids.jpg
+Sénégal | Plats | Caldou poisson | senegal-plats-caldou-poisson.jpg
+Sénégal | Plats | Ceebu guinar | senegal-plats-ceebu-guinar.jpg
+Sénégal | Plats | Ceebu yapp | senegal-plats-ceebu-yapp.jpg
+Sénégal | Plats | Domoda boeuf | senegal-plats-domoda-boeuf.jpg
+Sénégal | Plats | Domoda poisson | senegal-plats-domoda-poisson.jpg
+Sénégal | Plats | Lakhou bissap salé | senegal-plats-lakhou-bissap-salé.jpg
+Sénégal | Plats | Lentilles sénégalaises | senegal-plats-lentilles-sénégalaises.jpg
+Sénégal | Plats | Mafé de bœuf | senegal-plats-mafe-de-buf.jpg
+Sénégal | Plats | Mafé poulet | senegal-plats-mafé-poulet.jpg
+Sénégal | Plats | Mbaxalou saloum | senegal-plats-mbaxalou-saloum.jpg
+Sénégal | Plats | Ndambe | senegal-plats-ndambe.jpg
+Sénégal | Plats | Poisson sauce tomate | senegal-plats-poisson-sauce-tomate.jpg
+Sénégal | Plats | Poulet sauce oignons | senegal-plats-poulet-sauce-oignons.jpg
+Sénégal | Plats | Riz au poisson fumé | senegal-plats-riz-au-poisson-fumé.jpg
+Sénégal | Plats | Riz viande légumes | senegal-plats-riz-viande-légumes.jpg
+Sénégal | Plats | Soupou kandja | senegal-plats-soupou-kandja.jpg
+Sénégal | Plats | Thiéboudienne | senegal-plats-thieboudienne.jpg
+Sénégal | Plats | Thiou poisson | senegal-plats-thiou-poisson.jpg
+Sénégal | Plats | Thiou viande | senegal-plats-thiou-viande.jpg
+Sénégal | Plats | Thiéboudiène blanc | senegal-plats-thiéboudiène-blanc.jpg
+Sénégal | Plats | Thiéboudiène rouge | senegal-plats-thiéboudiène-rouge.jpg
+Sénégal | Plats | Thiéré poisson | senegal-plats-thiéré-poisson.jpg
+Sénégal | Plats | Thiéré viande | senegal-plats-thiéré-viande.jpg
+Sénégal | Plats | Vermicelles au poulet | senegal-plats-vermicelles-au-poulet.jpg
+Sénégal | Plats | Yassa poisson | senegal-plats-yassa-poisson.jpg
+Sénégal | Plats | Yassa poulet | senegal-plats-yassa-poulet.jpg

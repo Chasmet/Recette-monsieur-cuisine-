@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="800" height="500" rx="36" fill="#151a20"/><circle cx="400" cy="215" r="145" fill="#e9b949"/><circle cx="400" cy="215" r="105" fill="#f7f2e8"/><text x="400" y="220" text-anchor="middle" font-size="72">🇮🇹</text><text x="400" y="405" text-anchor="middle" font-family="sans-serif" font-size="34" fill="white">Pâtes pesto</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="34" fill="#f4ead7"/><circle cx="565" cy="220" r="8" fill="#efc85b" opacity="0.10"/><circle cx="221" cy="280" r="12" fill="#efc85b" opacity="0.10"/><circle cx="178" cy="322" r="16" fill="#efc85b" opacity="0.10"/><circle cx="498" cy="231" r="8" fill="#efc85b" opacity="0.10"/><circle cx="376" cy="225" r="12" fill="#efc85b" opacity="0.10"/><circle cx="360" cy="93" r="16" fill="#efc85b" opacity="0.10"/><circle cx="115" cy="85" r="8" fill="#efc85b" opacity="0.10"/>
+<rect x="52" y="42" width="92" height="54" rx="27" fill="#ffffff" opacity="0.84"/><text x="98" y="78" text-anchor="middle" font-size="28">🇮🇹</text>
+<ellipse cx="400" cy="315" rx="205" ry="78" fill="#c94a44"/><path d="M285 285 C330 220 370 350 415 265 S500 330 525 260" fill="none" stroke="#efcc69" stroke-width="28" stroke-linecap="round"/><circle cx="355" cy="270" r="18" fill="#4e8a57"/><circle cx="455" cy="300" r="16" fill="#6d9654"/>
+<rect x="70" y="395" width="660" height="70" rx="24" fill="#ffffff" opacity="0.90"/>
+<text x="400" y="438" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#252525">Pâtes pesto</text>
+</svg>

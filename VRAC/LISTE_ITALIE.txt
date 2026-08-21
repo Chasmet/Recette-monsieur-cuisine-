@@ -1,0 +1,70 @@
+LISTE DES ILLUSTRATIONS À DÉPOSER DANS VRAC
+Formats acceptés : .jpg .jpeg .png .webp
+Nom exact attendu : <id-recette>.jpg (ou .png/.webp)
+
+Italie | Desserts | Amaretti | italie-desserts-amaretti.jpg
+Italie | Desserts | Biscotti | italie-desserts-biscotti.jpg
+Italie | Desserts | Budino chocolat | italie-desserts-budino-chocolat.jpg
+Italie | Desserts | Cannoli crème ricotta | italie-desserts-cannoli-crème-ricotta.jpg
+Italie | Desserts | Crème café | italie-desserts-crème-café.jpg
+Italie | Desserts | Crème de noisette | italie-desserts-crème-de-noisette.jpg
+Italie | Desserts | Crème mascarpone | italie-desserts-crème-mascarpone.jpg
+Italie | Desserts | Gelato chocolat | italie-desserts-gelato-chocolat.jpg
+Italie | Desserts | Gelato vanille | italie-desserts-gelato-vanille.jpg
+Italie | Desserts | Granita citron | italie-desserts-granita-citron.jpg
+Italie | Desserts | Gâteau ricotta citron | italie-desserts-gâteau-ricotta-citron.jpg
+Italie | Desserts | Pandoro | italie-desserts-pandoro.jpg
+Italie | Desserts | Panettone | italie-desserts-panettone.jpg
+Italie | Desserts | Panna cotta | italie-desserts-panna-cotta.jpg
+Italie | Desserts | Panna cotta vanille | italie-desserts-panna-cotta-vanille.jpg
+Italie | Desserts | Semifreddo chocolat | italie-desserts-semifreddo-chocolat.jpg
+Italie | Desserts | Sorbet citron | italie-desserts-sorbet-citron.jpg
+Italie | Desserts | Tiramisu | italie-desserts-tiramisu.jpg
+Italie | Desserts | Tiramisu fraise | italie-desserts-tiramisu-fraise.jpg
+Italie | Desserts | Torta caprese | italie-desserts-torta-caprese.jpg
+Italie | Desserts | Zabaglione | italie-desserts-zabaglione.jpg
+Italie | Entrées | Arancini | italie-entrees-arancini.jpg
+Italie | Entrées | Aubergines marinées | italie-entrees-aubergines-marinées.jpg
+Italie | Entrées | Bruschetta tomate | italie-entrees-bruschetta-tomate.jpg
+Italie | Entrées | Caponata sicilienne | italie-entrees-caponata-sicilienne.jpg
+Italie | Entrées | Crème de tomates à l'italienne | italie-entrees-creme-de-tomates-a-l-italienne.jpg
+Italie | Entrées | Crème de parmesan | italie-entrees-crème-de-parmesan.jpg
+Italie | Entrées | Crème de ricotta | italie-entrees-crème-de-ricotta.jpg
+Italie | Entrées | Flan parmesan | italie-entrees-flan-parmesan.jpg
+Italie | Entrées | Focaccia | italie-entrees-focaccia.jpg
+Italie | Entrées | Minestrone | italie-entrees-minestrone.jpg
+Italie | Entrées | Pesto et bruschetta | italie-entrees-pesto-et-bruschetta.jpg
+Italie | Entrées | Pesto génois | italie-entrees-pesto-génois.jpg
+Italie | Entrées | Poivrons marinés | italie-entrees-poivrons-marinés.jpg
+Italie | Entrées | Polenta grillée | italie-entrees-polenta-grillée.jpg
+Italie | Entrées | Soupe tomate basilic | italie-entrees-soupe-tomate-basilic.jpg
+Italie | Entrées | Supplì | italie-entrees-suppl.jpg
+Italie | Entrées | Tapenade italienne | italie-entrees-tapenade-italienne.jpg
+Italie | Entrées | Velouté de haricots | italie-entrees-velouté-de-haricots.jpg
+Italie | Plats | Aubergines parmigiana | italie-plats-aubergines-parmigiana.jpg
+Italie | Plats | Frittata légumes | italie-plats-frittata-légumes.jpg
+Italie | Plats | Gnocchi sauce tomate | italie-plats-gnocchi-sauce-tomate.jpg
+Italie | Plats | Lasagnes bolognaise | italie-plats-lasagnes-bolognaise.jpg
+Italie | Plats | Lasagnes végétariennes | italie-plats-lasagnes-végétariennes.jpg
+Italie | Plats | Minestrone | italie-plats-minestrone.jpg
+Italie | Plats | Osso buco | italie-plats-osso-buco.jpg
+Italie | Plats | Pasta e fagioli | italie-plats-pasta-e-fagioli.jpg
+Italie | Plats | Polenta crémeuse | italie-plats-polenta-crémeuse.jpg
+Italie | Plats | Polpette sauce tomate | italie-plats-polpette-sauce-tomate.jpg
+Italie | Plats | Poulet cacciatore | italie-plats-poulet-cacciatore.jpg
+Italie | Plats | Pâtes amatriciana | italie-plats-pâtes-amatriciana.jpg
+Italie | Plats | Pâtes arrabbiata | italie-plats-pâtes-arrabbiata.jpg
+Italie | Plats | Pâtes carbonara | italie-plats-pâtes-carbonara.jpg
+Italie | Plats | Pâtes pesto | italie-plats-pâtes-pesto.jpg
+Italie | Plats | Pâtes puttanesca | italie-plats-pâtes-puttanesca.jpg
+Italie | Plats | Ragù bolognaise | italie-plats-ragu-bolognaise.jpg
+Italie | Plats | Ragù napolitain | italie-plats-ragù-napolitain.jpg
+Italie | Plats | Risotto alla milanese | italie-plats-risotto-alla-milanese.jpg
+Italie | Plats | Risotto aux champignons | italie-plats-risotto-aux-champignons.jpg
+Italie | Plats | Risotto aux cèpes | italie-plats-risotto-aux-cèpes.jpg
+Italie | Plats | Risotto aux fruits de mer | italie-plats-risotto-aux-fruits-de-mer.jpg
+Italie | Plats | Risotto citron | italie-plats-risotto-citron.jpg
+Italie | Plats | Risotto courgettes | italie-plats-risotto-courgettes.jpg
+Italie | Plats | Sauce bolognaise | italie-plats-sauce-bolognaise.jpg
+Italie | Plats | Sauce tomate italienne | italie-plats-sauce-tomate-italienne.jpg
+Italie | Plats | Soupe toscane | italie-plats-soupe-toscane.jpg
