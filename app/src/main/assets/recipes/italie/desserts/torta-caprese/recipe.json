@@ -10,34 +10,38 @@
   "prepMinutes": 15,
   "cookMinutes": 30,
   "difficulty": "Facile",
-  "description": "Torta caprese adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Torta caprese : recette détaillée et guidée pour Monsieur Cuisine. Chaque ingrédient est nommé et chaque étape indique le temps, la température et la vitesse quand le robot est utilisé.",
   "image": "image.png",
   "ingredients": [
     {
       "amount": "250 g",
-      "name": "ingrédient principal"
+      "name": "farine de blé"
     },
     {
-      "amount": "80 g",
+      "amount": "120 g",
       "name": "sucre"
     },
     {
       "amount": "2",
-      "name": "oeufs"
+      "name": "œufs"
     },
     {
-      "amount": "250 ml",
-      "name": "lait ou crème"
+      "amount": "100 g",
+      "name": "beurre doux fondu"
     },
     {
-      "amount": "1 pincée",
-      "name": "arôme adapté"
+      "amount": "120 ml",
+      "name": "lait entier"
+    },
+    {
+      "amount": "8 g",
+      "name": "levure chimique"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
+      "title": "Préchauffer le four",
+      "instruction": "Préchauffer le four à 180 °C, chaleur traditionnelle.",
       "durationSeconds": 0,
       "temperatureC": 0,
       "speed": "",
@@ -46,34 +50,44 @@
       "note": ""
     },
     {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
+      "title": "Mélanger",
+      "instruction": "Mettre les ingrédients liquides puis les ingrédients secs dans le bol.",
+      "durationSeconds": 30,
       "temperatureC": 0,
-      "speed": "5",
+      "speed": "4",
       "reverse": false,
       "turbo": false,
       "note": ""
     },
     {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
-      "temperatureC": 100,
-      "speed": "1",
-      "reverse": false,
-      "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
-    },
-    {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
+      "title": "Racler et homogénéiser",
+      "instruction": "Racler les parois avec la spatule puis mélanger encore.",
+      "durationSeconds": 15,
       "temperatureC": 0,
-      "speed": "2",
+      "speed": "4",
       "reverse": false,
       "turbo": false,
       "note": ""
+    },
+    {
+      "title": "Mettre en moule",
+      "instruction": "Verser dans un moule beurré ou chemisé de papier cuisson.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire au four",
+      "instruction": "Cuire 25 à 35 minutes à 180 °C selon l’épaisseur.",
+      "durationSeconds": 1800,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": "Planter la lame d’un couteau : elle doit ressortir sèche."
     }
   ]
 }

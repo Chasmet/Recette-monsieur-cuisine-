@@ -10,34 +10,76 @@
   "prepMinutes": 15,
   "cookMinutes": 30,
   "difficulty": "Facile",
-  "description": "Spätzle adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Spätzle : recette détaillée et guidée pour Monsieur Cuisine. Chaque ingrédient est nommé et chaque étape indique le temps, la température et la vitesse quand le robot est utilisé.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "350 g",
+      "name": "spätzle"
+    },
+    {
+      "amount": "700 ml",
+      "name": "eau"
+    },
+    {
+      "amount": "1 c. à café",
+      "name": "sel"
     },
     {
       "amount": "1",
-      "name": "oignon ou base aromatique"
+      "name": "oignon"
     },
     {
       "amount": "20 g",
-      "name": "huile ou matière grasse"
+      "name": "beurre ou huile"
     },
     {
-      "amount": "300 ml",
-      "name": "liquide adapté"
+      "amount": "1 c. à café",
+      "name": "paprika doux"
     },
     {
-      "amount": "à ajuster",
-      "name": "sel et épices"
+      "amount": "400 g",
+      "name": "tomates concassées"
+    },
+    {
+      "amount": "60 g",
+      "name": "fromage râpé"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
+      "title": "Préparer la sauce",
+      "instruction": "Hacher oignon et ail.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter l’huile.",
+      "durationSeconds": 240,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire la sauce",
+      "instruction": "Ajouter tomates et assaisonnement.",
+      "durationSeconds": 720,
+      "temperatureC": 100,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Réserver la sauce",
+      "instruction": "Verser la sauce dans un saladier.",
       "durationSeconds": 0,
       "temperatureC": 0,
       "speed": "",
@@ -46,32 +88,22 @@
       "note": ""
     },
     {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
-      "temperatureC": 0,
-      "speed": "5",
-      "reverse": false,
-      "turbo": false,
-      "note": ""
-    },
-    {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
+      "title": "Cuire les pâtes",
+      "instruction": "Mettre 700 ml d’eau et le sel. Chauffer puis ajouter les pâtes.",
+      "durationSeconds": 600,
       "temperatureC": 100,
       "speed": "1",
       "reverse": true,
       "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
+      "note": "Adapter le temps au paquet."
     },
     {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
+      "title": "Assembler",
+      "instruction": "Égoutter si nécessaire, remettre la sauce et mélanger.",
+      "durationSeconds": 30,
       "temperatureC": 0,
-      "speed": "2",
-      "reverse": false,
+      "speed": "1",
+      "reverse": true,
       "turbo": false,
       "note": ""
     }

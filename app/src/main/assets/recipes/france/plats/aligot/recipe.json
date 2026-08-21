@@ -10,34 +10,52 @@
   "prepMinutes": 15,
   "cookMinutes": 30,
   "difficulty": "Facile",
-  "description": "Aligot adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Aligot : recette guidée détaillée pour Monsieur Cuisine, avec quantités, ordre d’ajout et réglages précis.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "800 g",
+      "name": "pommes de terre à purée, épluchées et coupées en cubes"
     },
     {
-      "amount": "1",
-      "name": "oignon ou base aromatique"
+      "amount": "300 g",
+      "name": "tomme fraîche d’Auvergne coupée en fines lamelles"
     },
     {
-      "amount": "20 g",
-      "name": "huile ou matière grasse"
+      "amount": "100 ml",
+      "name": "crème entière"
     },
     {
-      "amount": "300 ml",
-      "name": "liquide adapté"
+      "amount": "40 g",
+      "name": "beurre"
     },
     {
-      "amount": "à ajuster",
-      "name": "sel et épices"
+      "amount": "1 gousse",
+      "name": "ail"
+    },
+    {
+      "amount": "1 c. à café rase",
+      "name": "sel"
+    },
+    {
+      "amount": "2 pincées",
+      "name": "poivre"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
+      "title": "Cuire les pommes de terre",
+      "instruction": "Mettre 500 ml d’eau dans le bol. Placer les 800 g de pommes de terre dans le panier cuisson.",
+      "durationSeconds": 1500,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": "Les pommes de terre doivent être très tendres."
+    },
+    {
+      "title": "Vider l’eau",
+      "instruction": "Retirer le panier avec précaution, vider complètement l’eau puis remettre les pommes de terre cuites dans le bol.",
       "durationSeconds": 0,
       "temperatureC": 0,
       "speed": "",
@@ -46,34 +64,34 @@
       "note": ""
     },
     {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
+      "title": "Écraser",
+      "instruction": "Ajouter 40 g de beurre, 100 ml de crème, l’ail, le sel et le poivre. Mixer 25 secondes.",
+      "durationSeconds": 25,
       "temperatureC": 0,
-      "speed": "5",
+      "speed": "4",
       "reverse": false,
       "turbo": false,
       "note": ""
     },
     {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
-      "temperatureC": 100,
-      "speed": "1",
-      "reverse": true,
-      "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
-    },
-    {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
-      "temperatureC": 0,
+      "title": "Faire fondre la tomme",
+      "instruction": "Programmer 4 minutes à 80 °C, vitesse 2. Ajouter progressivement les 300 g de tomme par l’ouverture du couvercle.",
+      "durationSeconds": 240,
+      "temperatureC": 80,
       "speed": "2",
       "reverse": false,
       "turbo": false,
       "note": ""
+    },
+    {
+      "title": "Filer l’aligot",
+      "instruction": "Mélanger encore 45 secondes, vitesse 3, jusqu’à obtenir une texture lisse, élastique et filante.",
+      "durationSeconds": 45,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": "Servir immédiatement."
     }
   ]
 }

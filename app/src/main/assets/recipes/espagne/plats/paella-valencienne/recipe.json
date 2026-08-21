@@ -8,47 +8,65 @@
   "categoryLabel": "Plats",
   "servings": 4,
   "prepMinutes": 15,
-  "cookMinutes": 30,
+  "cookMinutes": 38,
   "difficulty": "Facile",
-  "description": "Paella valencienne adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Paella valencienne : recette guidée détaillée pour Monsieur Cuisine, avec quantités, ordre d’ajout et réglages précis.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "320 g",
+      "name": "riz rond espagnol"
+    },
+    {
+      "amount": "500 g",
+      "name": "poulet en morceaux"
+    },
+    {
+      "amount": "150 g",
+      "name": "haricots verts plats"
     },
     {
       "amount": "1",
-      "name": "oignon ou base aromatique"
+      "name": "poivron rouge en lanières"
     },
     {
-      "amount": "20 g",
-      "name": "huile ou matière grasse"
+      "amount": "2",
+      "name": "tomates mûres concassées"
     },
     {
-      "amount": "300 ml",
-      "name": "liquide adapté"
+      "amount": "1",
+      "name": "oignon"
     },
     {
-      "amount": "à ajuster",
-      "name": "sel et épices"
+      "amount": "2 gousses",
+      "name": "ail"
+    },
+    {
+      "amount": "700 ml",
+      "name": "bouillon de volaille chaud"
+    },
+    {
+      "amount": "30 g",
+      "name": "huile d’olive"
+    },
+    {
+      "amount": "1 dose",
+      "name": "safran"
+    },
+    {
+      "amount": "1 c. à café",
+      "name": "paprika"
+    },
+    {
+      "amount": "1 c. à café",
+      "name": "sel"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
-      "durationSeconds": 0,
-      "temperatureC": 0,
-      "speed": "",
-      "reverse": false,
-      "turbo": false,
-      "note": ""
-    },
-    {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
+      "title": "Hacher",
+      "instruction": "Mettre oignon et ail dans le bol.",
+      "durationSeconds": 5,
       "temperatureC": 0,
       "speed": "5",
       "reverse": false,
@@ -56,21 +74,41 @@
       "note": ""
     },
     {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
+      "title": "Faire revenir",
+      "instruction": "Ajouter huile, poulet et poivron.",
+      "durationSeconds": 600,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter tomate et épices",
+      "instruction": "Ajouter tomates, paprika et safran.",
+      "durationSeconds": 300,
+      "temperatureC": 110,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire le riz",
+      "instruction": "Ajouter riz, haricots et bouillon.",
+      "durationSeconds": 1080,
       "temperatureC": 100,
       "speed": "1",
       "reverse": true,
       "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
+      "note": "Ne pas utiliser le bouchon doseur ; poser le panier sur le couvercle."
     },
     {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
+      "title": "Repos",
+      "instruction": "Laisser reposer 5 minutes avant de servir.",
+      "durationSeconds": 300,
       "temperatureC": 0,
-      "speed": "2",
+      "speed": "",
       "reverse": false,
       "turbo": false,
       "note": ""

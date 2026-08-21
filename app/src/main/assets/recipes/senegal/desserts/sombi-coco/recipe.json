@@ -8,14 +8,14 @@
   "categoryLabel": "Desserts",
   "servings": 4,
   "prepMinutes": 15,
-  "cookMinutes": 30,
+  "cookMinutes": 12,
   "difficulty": "Facile",
-  "description": "Sombi coco adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Sombi coco : recette détaillée et guidée pour Monsieur Cuisine. Chaque ingrédient est nommé et chaque étape indique le temps, la température et la vitesse quand le robot est utilisé.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "500 ml",
+      "name": "lait entier"
     },
     {
       "amount": "80 g",
@@ -23,21 +23,17 @@
     },
     {
       "amount": "2",
-      "name": "oeufs"
+      "name": "œufs"
     },
     {
-      "amount": "250 ml",
-      "name": "lait ou crème"
-    },
-    {
-      "amount": "1 pincée",
-      "name": "arôme adapté"
+      "amount": "1 c. à café",
+      "name": "extrait de vanille"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
+      "title": "Mettre les ingrédients",
+      "instruction": "Verser tous les ingrédients dans le bol dans l’ordre indiqué.",
       "durationSeconds": 0,
       "temperatureC": 0,
       "speed": "",
@@ -46,31 +42,31 @@
       "note": ""
     },
     {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
-      "temperatureC": 0,
-      "speed": "5",
+      "title": "Cuire doucement",
+      "instruction": "Cuire en mélangeant pour éviter que le fond accroche.",
+      "durationSeconds": 720,
+      "temperatureC": 90,
+      "speed": "3",
       "reverse": false,
       "turbo": false,
       "note": ""
     },
     {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
-      "temperatureC": 100,
-      "speed": "1",
+      "title": "Vérifier la texture",
+      "instruction": "La préparation doit napper la spatule. Prolonger 2 à 3 minutes à 90 °C si elle est trop liquide.",
+      "durationSeconds": 0,
+      "temperatureC": 0,
+      "speed": "",
       "reverse": false,
       "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
+      "note": ""
     },
     {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
+      "title": "Refroidir",
+      "instruction": "Verser dans des ramequins et laisser refroidir avant de placer au réfrigérateur.",
+      "durationSeconds": 0,
       "temperatureC": 0,
-      "speed": "2",
+      "speed": "",
       "reverse": false,
       "turbo": false,
       "note": ""

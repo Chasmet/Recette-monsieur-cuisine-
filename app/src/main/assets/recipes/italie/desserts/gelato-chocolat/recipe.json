@@ -8,36 +8,36 @@
   "categoryLabel": "Desserts",
   "servings": 4,
   "prepMinutes": 15,
-  "cookMinutes": 30,
+  "cookMinutes": 0,
   "difficulty": "Facile",
-  "description": "Gelato chocolat adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Gelato chocolat : recette détaillée et guidée pour Monsieur Cuisine. Chaque ingrédient est nommé et chaque étape indique le temps, la température et la vitesse quand le robot est utilisé.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "500 g",
+      "name": "chocolat noir"
     },
     {
-      "amount": "80 g",
+      "amount": "60 g",
       "name": "sucre"
     },
     {
-      "amount": "2",
-      "name": "oeufs"
+      "amount": "30 ml",
+      "name": "jus de citron"
     },
     {
       "amount": "250 ml",
-      "name": "lait ou crème"
+      "name": "lait entier"
     },
     {
-      "amount": "1 pincée",
-      "name": "arôme adapté"
+      "amount": "100 ml",
+      "name": "crème entière"
     }
   ],
   "steps": [
     {
       "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
+      "instruction": "Utiliser des fruits bien froids ou surgelés selon la recette.",
       "durationSeconds": 0,
       "temperatureC": 0,
       "speed": "",
@@ -46,31 +46,31 @@
       "note": ""
     },
     {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
+      "title": "Mixer",
+      "instruction": "Mettre tous les ingrédients dans le bol.",
+      "durationSeconds": 60,
       "temperatureC": 0,
-      "speed": "5",
+      "speed": "8",
       "reverse": false,
       "turbo": false,
       "note": ""
     },
     {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
-      "temperatureC": 100,
-      "speed": "1",
+      "title": "Racler",
+      "instruction": "Racler les parois puis mixer encore.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "10",
       "reverse": false,
-      "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
+      "turbo": true,
+      "note": ""
     },
     {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
+      "title": "Servir",
+      "instruction": "Servir immédiatement ou placer 1 heure au congélateur pour raffermir.",
+      "durationSeconds": 0,
       "temperatureC": 0,
-      "speed": "2",
+      "speed": "",
       "reverse": false,
       "turbo": false,
       "note": ""

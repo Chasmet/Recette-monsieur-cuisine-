@@ -8,36 +8,96 @@
   "categoryLabel": "Plats",
   "servings": 4,
   "prepMinutes": 15,
-  "cookMinutes": 30,
+  "cookMinutes": 20,
   "difficulty": "Facile",
-  "description": "Currywurst sauce adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Currywurst sauce : recette guidée détaillée pour Monsieur Cuisine, avec quantités, ordre d’ajout et réglages précis.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "4",
+      "name": "saucisses type bratwurst"
+    },
+    {
+      "amount": "400 g",
+      "name": "tomates concassées"
+    },
+    {
+      "amount": "60 g",
+      "name": "ketchup"
     },
     {
       "amount": "1",
-      "name": "oignon ou base aromatique"
+      "name": "oignon"
     },
     {
-      "amount": "20 g",
-      "name": "huile ou matière grasse"
+      "amount": "15 g",
+      "name": "huile"
     },
     {
-      "amount": "300 ml",
-      "name": "liquide adapté"
+      "amount": "2 c. à café",
+      "name": "curry en poudre"
     },
     {
-      "amount": "à ajuster",
-      "name": "sel et épices"
+      "amount": "1 c. à café",
+      "name": "paprika doux"
+    },
+    {
+      "amount": "1 c. à café",
+      "name": "sucre"
+    },
+    {
+      "amount": "1 c. à soupe",
+      "name": "vinaigre de cidre"
+    },
+    {
+      "amount": "1/2 c. à café",
+      "name": "sel"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
+      "title": "Hacher l’oignon",
+      "instruction": "Mettre l’oignon dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter l’huile.",
+      "durationSeconds": 240,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire la sauce",
+      "instruction": "Ajouter tomates, ketchup, curry, paprika, sucre, vinaigre et sel.",
+      "durationSeconds": 900,
+      "temperatureC": 100,
+      "speed": "2",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mixer la sauce",
+      "instruction": "Mixer pour obtenir une sauce lisse.",
+      "durationSeconds": 25,
+      "temperatureC": 0,
+      "speed": "7",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire les saucisses",
+      "instruction": "Faire dorer les saucisses à la poêle ou au gril 8 à 10 minutes, puis les couper en rondelles.",
       "durationSeconds": 0,
       "temperatureC": 0,
       "speed": "",
@@ -46,31 +106,11 @@
       "note": ""
     },
     {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
+      "title": "Servir",
+      "instruction": "Napper les saucisses de sauce chaude et saupoudrer d’un peu de curry.",
+      "durationSeconds": 0,
       "temperatureC": 0,
-      "speed": "5",
-      "reverse": false,
-      "turbo": false,
-      "note": ""
-    },
-    {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
-      "temperatureC": 100,
-      "speed": "1",
-      "reverse": true,
-      "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
-    },
-    {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
-      "temperatureC": 0,
-      "speed": "2",
+      "speed": "",
       "reverse": false,
       "turbo": false,
       "note": ""

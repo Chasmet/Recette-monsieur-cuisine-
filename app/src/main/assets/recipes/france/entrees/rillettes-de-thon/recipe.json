@@ -8,36 +8,44 @@
   "categoryLabel": "Entrées",
   "servings": 4,
   "prepMinutes": 15,
-  "cookMinutes": 30,
+  "cookMinutes": 0,
   "difficulty": "Facile",
-  "description": "Rillettes de thon adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Rillettes de thon : recette détaillée et guidée pour Monsieur Cuisine. Chaque ingrédient est nommé et chaque étape indique le temps, la température et la vitesse quand le robot est utilisé.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "400 g",
+      "name": "ingrédients frais de la recette"
     },
     {
       "amount": "1",
-      "name": "oignon ou base aromatique"
+      "name": "oignon jaune"
     },
     {
-      "amount": "20 g",
-      "name": "huile ou matière grasse"
+      "amount": "2 gousses",
+      "name": "ail"
     },
     {
-      "amount": "300 ml",
-      "name": "liquide adapté"
+      "amount": "20 ml",
+      "name": "jus de citron ou vinaigre"
     },
     {
-      "amount": "à ajuster",
-      "name": "sel et épices"
+      "amount": "30 ml",
+      "name": "huile"
+    },
+    {
+      "amount": "1/2 c. à café",
+      "name": "sel"
+    },
+    {
+      "amount": "2 pincées",
+      "name": "poivre"
     }
   ],
   "steps": [
     {
       "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
+      "instruction": "Laver, éplucher et couper les ingrédients frais comme indiqué.",
       "durationSeconds": 0,
       "temperatureC": 0,
       "speed": "",
@@ -46,9 +54,9 @@
       "note": ""
     },
     {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
+      "title": "Hacher",
+      "instruction": "Mettre les éléments à hacher dans le bol.",
+      "durationSeconds": 5,
       "temperatureC": 0,
       "speed": "5",
       "reverse": false,
@@ -56,21 +64,31 @@
       "note": ""
     },
     {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
-      "temperatureC": 100,
+      "title": "Assaisonner",
+      "instruction": "Ajouter jus de citron ou vinaigre, huile, sel et poivre.",
+      "durationSeconds": 15,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Assembler",
+      "instruction": "Ajouter le reste des ingrédients et mélanger délicatement.",
+      "durationSeconds": 20,
+      "temperatureC": 0,
       "speed": "1",
       "reverse": true,
       "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
+      "note": ""
     },
     {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
+      "title": "Repos",
+      "instruction": "Laisser reposer 10 minutes au frais avant de servir.",
+      "durationSeconds": 0,
       "temperatureC": 0,
-      "speed": "2",
+      "speed": "",
       "reverse": false,
       "turbo": false,
       "note": ""

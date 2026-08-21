@@ -8,36 +8,108 @@
   "categoryLabel": "Plats",
   "servings": 4,
   "prepMinutes": 15,
-  "cookMinutes": 30,
+  "cookMinutes": 78,
   "difficulty": "Facile",
-  "description": "Lasagnes bolognaise adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Lasagnes bolognaise : recette guidée détaillée pour Monsieur Cuisine, avec quantités, ordre d’ajout et réglages précis.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "500 g",
+      "name": "bœuf haché"
     },
     {
       "amount": "1",
-      "name": "oignon ou base aromatique"
+      "name": "oignon"
     },
     {
-      "amount": "20 g",
-      "name": "huile ou matière grasse"
+      "amount": "2 gousses",
+      "name": "ail"
     },
     {
-      "amount": "300 ml",
-      "name": "liquide adapté"
+      "amount": "700 g",
+      "name": "coulis de tomate"
     },
     {
-      "amount": "à ajuster",
-      "name": "sel et épices"
+      "amount": "30 g",
+      "name": "huile d’olive"
+    },
+    {
+      "amount": "12",
+      "name": "plaques de lasagnes"
+    },
+    {
+      "amount": "500 ml",
+      "name": "lait"
+    },
+    {
+      "amount": "40 g",
+      "name": "beurre"
+    },
+    {
+      "amount": "40 g",
+      "name": "farine"
+    },
+    {
+      "amount": "100 g",
+      "name": "parmesan râpé"
+    },
+    {
+      "amount": "150 g",
+      "name": "mozzarella râpée"
+    },
+    {
+      "amount": "1 c. à café",
+      "name": "sel"
+    },
+    {
+      "amount": "1/2 c. à café",
+      "name": "poivre"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
+      "title": "Hacher oignon et ail",
+      "instruction": "Mettre oignon et ail dans le bol.",
+      "durationSeconds": 5,
+      "temperatureC": 0,
+      "speed": "5",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Faire revenir",
+      "instruction": "Ajouter l’huile.",
+      "durationSeconds": 240,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire le bœuf",
+      "instruction": "Ajouter le bœuf haché.",
+      "durationSeconds": 420,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Cuire la sauce",
+      "instruction": "Ajouter le coulis de tomate, la moitié du sel et le poivre.",
+      "durationSeconds": 1200,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Réserver la bolognaise",
+      "instruction": "Verser la sauce dans un saladier et rincer rapidement le bol.",
       "durationSeconds": 0,
       "temperatureC": 0,
       "speed": "",
@@ -46,34 +118,34 @@
       "note": ""
     },
     {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
-      "temperatureC": 0,
-      "speed": "5",
+      "title": "Faire la béchamel",
+      "instruction": "Mettre lait, beurre, farine et reste de sel.",
+      "durationSeconds": 720,
+      "temperatureC": 90,
+      "speed": "4",
       "reverse": false,
       "turbo": false,
       "note": ""
     },
     {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
-      "temperatureC": 100,
-      "speed": "1",
-      "reverse": true,
-      "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
-    },
-    {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
+      "title": "Monter les lasagnes",
+      "instruction": "Dans un plat : sauce, plaques, béchamel. Répéter 3 à 4 fois. Terminer par parmesan et mozzarella.",
+      "durationSeconds": 0,
       "temperatureC": 0,
-      "speed": "2",
+      "speed": "",
       "reverse": false,
       "turbo": false,
       "note": ""
+    },
+    {
+      "title": "Cuire au four",
+      "instruction": "Enfourner 35 minutes dans un four préchauffé à 180 °C.",
+      "durationSeconds": 2100,
+      "temperatureC": 0,
+      "speed": "",
+      "reverse": false,
+      "turbo": false,
+      "note": "Le dessus doit être gratiné et les pâtes tendres."
     }
   ]
 }

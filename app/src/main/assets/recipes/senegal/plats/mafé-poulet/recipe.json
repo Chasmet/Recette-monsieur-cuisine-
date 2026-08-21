@@ -8,47 +8,61 @@
   "categoryLabel": "Plats",
   "servings": 4,
   "prepMinutes": 15,
-  "cookMinutes": 30,
+  "cookMinutes": 48,
   "difficulty": "Facile",
-  "description": "Mafé poulet adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Mafé poulet : recette guidée détaillée pour Monsieur Cuisine, avec quantités, ordre d’ajout et réglages précis.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "700 g",
+      "name": "poulet en morceaux"
+    },
+    {
+      "amount": "180 g",
+      "name": "pâte d’arachide non sucrée"
+    },
+    {
+      "amount": "400 g",
+      "name": "tomates concassées"
     },
     {
       "amount": "1",
-      "name": "oignon ou base aromatique"
+      "name": "oignon"
+    },
+    {
+      "amount": "2 gousses",
+      "name": "ail"
+    },
+    {
+      "amount": "2",
+      "name": "carottes en gros morceaux"
+    },
+    {
+      "amount": "1",
+      "name": "patate douce en cubes"
+    },
+    {
+      "amount": "500 ml",
+      "name": "eau"
     },
     {
       "amount": "20 g",
-      "name": "huile ou matière grasse"
+      "name": "huile d’arachide"
     },
     {
-      "amount": "300 ml",
-      "name": "liquide adapté"
+      "amount": "1",
+      "name": "cube de bouillon"
     },
     {
-      "amount": "à ajuster",
-      "name": "sel et épices"
+      "amount": "1/2 c. à café",
+      "name": "poivre"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
-      "durationSeconds": 0,
-      "temperatureC": 0,
-      "speed": "",
-      "reverse": false,
-      "turbo": false,
-      "note": ""
-    },
-    {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
+      "title": "Hacher",
+      "instruction": "Mettre l’oignon et l’ail dans le bol.",
+      "durationSeconds": 6,
       "temperatureC": 0,
       "speed": "5",
       "reverse": false,
@@ -56,24 +70,44 @@
       "note": ""
     },
     {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
+      "title": "Faire revenir",
+      "instruction": "Ajouter l’huile.",
+      "durationSeconds": 300,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter la viande",
+      "instruction": "Ajouter poulet et faire revenir.",
+      "durationSeconds": 420,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Préparer la sauce",
+      "instruction": "Ajouter tomates, pâte d’arachide, eau et cube de bouillon.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "3",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mijoter",
+      "instruction": "Ajouter carottes et patate douce.",
+      "durationSeconds": 2100,
       "temperatureC": 100,
       "speed": "1",
       "reverse": true,
       "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
-    },
-    {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
-      "temperatureC": 0,
-      "speed": "2",
-      "reverse": false,
-      "turbo": false,
-      "note": ""
+      "note": "La sauce doit napper la cuillère et les légumes être tendres."
     }
   ]
 }

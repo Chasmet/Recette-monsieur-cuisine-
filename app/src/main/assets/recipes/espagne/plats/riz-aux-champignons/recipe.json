@@ -10,45 +10,47 @@
   "prepMinutes": 15,
   "cookMinutes": 30,
   "difficulty": "Facile",
-  "description": "Riz aux champignons adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Riz aux champignons : recette détaillée et guidée pour Monsieur Cuisine. Chaque ingrédient est nommé et chaque étape indique le temps, la température et la vitesse quand le robot est utilisé.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "320 g",
+      "name": "riz long ou riz rond selon la recette"
+    },
+    {
+      "amount": "650 ml",
+      "name": "bouillon chaud"
     },
     {
       "amount": "1",
-      "name": "oignon ou base aromatique"
+      "name": "oignon"
+    },
+    {
+      "amount": "2 gousses",
+      "name": "ail"
     },
     {
       "amount": "20 g",
-      "name": "huile ou matière grasse"
+      "name": "huile d’olive"
     },
     {
-      "amount": "300 ml",
-      "name": "liquide adapté"
+      "amount": "500 g",
+      "name": "champignons"
     },
     {
-      "amount": "à ajuster",
-      "name": "sel et épices"
+      "amount": "1 c. à café",
+      "name": "sel"
+    },
+    {
+      "amount": "1/2 c. à café",
+      "name": "poivre"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
-      "durationSeconds": 0,
-      "temperatureC": 0,
-      "speed": "",
-      "reverse": false,
-      "turbo": false,
-      "note": ""
-    },
-    {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
+      "title": "Hacher les aromates",
+      "instruction": "Mettre oignon et ail dans le bol.",
+      "durationSeconds": 5,
       "temperatureC": 0,
       "speed": "5",
       "reverse": false,
@@ -56,21 +58,41 @@
       "note": ""
     },
     {
+      "title": "Faire revenir",
+      "instruction": "Ajouter l’huile et la garniture principale.",
+      "durationSeconds": 420,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Ajouter le riz",
+      "instruction": "Ajouter le riz et mélanger.",
+      "durationSeconds": 60,
+      "temperatureC": 120,
+      "speed": "1",
+      "reverse": true,
+      "turbo": false,
+      "note": ""
+    },
+    {
       "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
+      "instruction": "Ajouter le bouillon et les légumes.",
+      "durationSeconds": 1080,
       "temperatureC": 100,
       "speed": "1",
       "reverse": true,
       "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
+      "note": "Ne pas mettre le bouchon doseur ; poser le panier cuisson sur le couvercle."
     },
     {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
+      "title": "Repos",
+      "instruction": "Laisser reposer 5 minutes avant de servir.",
+      "durationSeconds": 300,
       "temperatureC": 0,
-      "speed": "2",
+      "speed": "",
       "reverse": false,
       "turbo": false,
       "note": ""

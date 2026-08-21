@@ -10,45 +10,43 @@
   "prepMinutes": 15,
   "cookMinutes": 30,
   "difficulty": "Facile",
-  "description": "Corn chowder adapté à la cuisine guidée Monsieur Cuisine.",
+  "description": "Corn chowder : recette détaillée et guidée pour Monsieur Cuisine. Chaque ingrédient est nommé et chaque étape indique le temps, la température et la vitesse quand le robot est utilisé.",
   "image": "image.png",
   "ingredients": [
     {
-      "amount": "250 g",
-      "name": "ingrédient principal"
+      "amount": "600 g",
+      "name": "légumes de saison"
+    },
+    {
+      "amount": "700 ml",
+      "name": "bouillon de légumes"
     },
     {
       "amount": "1",
-      "name": "oignon ou base aromatique"
+      "name": "oignon"
+    },
+    {
+      "amount": "2 gousses",
+      "name": "ail"
     },
     {
       "amount": "20 g",
-      "name": "huile ou matière grasse"
+      "name": "huile neutre ou beurre"
     },
     {
-      "amount": "300 ml",
-      "name": "liquide adapté"
+      "amount": "1/2 c. à café",
+      "name": "sel"
     },
     {
-      "amount": "à ajuster",
-      "name": "sel et épices"
+      "amount": "2 pincées",
+      "name": "poivre"
     }
   ],
   "steps": [
     {
-      "title": "Préparer",
-      "instruction": "Peser et préparer tous les ingrédients indiqués avant de commencer.",
-      "durationSeconds": 0,
-      "temperatureC": 0,
-      "speed": "",
-      "reverse": false,
-      "turbo": false,
-      "note": ""
-    },
-    {
-      "title": "Hacher la base",
-      "instruction": "Mettre les éléments aromatiques dans le bol et hacher.",
-      "durationSeconds": 8,
+      "title": "Hacher les aromates",
+      "instruction": "Mettre oignon et ail dans le bol.",
+      "durationSeconds": 5,
       "temperatureC": 0,
       "speed": "5",
       "reverse": false,
@@ -56,21 +54,41 @@
       "note": ""
     },
     {
-      "title": "Cuire",
-      "instruction": "Ajouter les ingrédients indiqués et cuire en surveillant la texture.",
-      "durationSeconds": 1200,
-      "temperatureC": 100,
+      "title": "Faire revenir",
+      "instruction": "Ajouter la matière grasse.",
+      "durationSeconds": 240,
+      "temperatureC": 120,
       "speed": "1",
-      "reverse": true,
+      "reverse": false,
       "turbo": false,
-      "note": "Adapter légèrement la durée selon la taille des morceaux."
+      "note": ""
     },
     {
-      "title": "Finaliser",
-      "instruction": "Rectifier l’assaisonnement ou la texture puis servir.",
-      "durationSeconds": 20,
+      "title": "Ajouter les légumes",
+      "instruction": "Ajouter les légumes coupés en morceaux et le bouillon.",
+      "durationSeconds": 1500,
+      "temperatureC": 100,
+      "speed": "1",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Mixer",
+      "instruction": "Attendre 1 minute puis mixer progressivement.",
+      "durationSeconds": 60,
       "temperatureC": 0,
-      "speed": "2",
+      "speed": "8",
+      "reverse": false,
+      "turbo": false,
+      "note": ""
+    },
+    {
+      "title": "Finir",
+      "instruction": "Ajouter la crème si prévue, ajuster sel et poivre.",
+      "durationSeconds": 30,
+      "temperatureC": 0,
+      "speed": "3",
       "reverse": false,
       "turbo": false,
       "note": ""
