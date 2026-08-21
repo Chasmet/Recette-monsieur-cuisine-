@@ -9,226 +9,25 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import java.text.Normalizer;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
+import java.util.*;
 
 public class MainActivity extends Activity {
-    private final List<Recipe> allRecipes = new ArrayList<>();
-    private LinearLayout countryFilters;
-    private LinearLayout categoryFilters;
-    private LinearLayout recipeContainer;
-    private TextView resultCount;
-    private TextView catalogInfo;
-    private EditText search;
-    private Button tabSelection;
-    private Button tabComplete;
-    private String selectedCountry = "all";
-    private String selectedCategory = "all";
-    private boolean favoritesOnly = false;
-    private boolean completeMode = false;
-    private SharedPreferences prefs;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        prefs = getSharedPreferences("recipe_prefs", MODE_PRIVATE);
-
-        countryFilters = findViewById(R.id.countryFilters);
-        categoryFilters = findViewById(R.id.categoryFilters);
-        recipeContainer = findViewById(R.id.recipeContainer);
-        resultCount = findViewById(R.id.resultCount);
-        catalogInfo = findViewById(R.id.catalogInfo);
-        search = findViewById(R.id.search);
-        tabSelection = findViewById(R.id.tabSelection);
-        tabComplete = findViewById(R.id.tabComplete);
-
-        allRecipes.addAll(RecipeRepository.loadAll(this));
-        buildCountryFilters();
-        buildCategoryFilters();
-
-        tabSelection.setOnClickListener(v -> {
-            completeMode = false;
-            refreshTabs();
-            renderRecipes();
-        });
-        tabComplete.setOnClickListener(v -> {
-            completeMode = true;
-            refreshTabs();
-            renderRecipes();
-        });
-        refreshTabs();
-
-        search.addTextChangedListener(new TextWatcher() {
-            @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
-            @Override public void onTextChanged(CharSequence s, int start, int before, int count) { renderRecipes(); }
-            @Override public void afterTextChanged(Editable s) {}
-        });
-        renderRecipes();
-    }
-
-    private void refreshTabs() {
-        Ui.setFilterSelected(tabSelection, !completeMode);
-        Ui.setFilterSelected(tabComplete, completeMode);
-        if (completeMode) {
-            catalogInfo.setText("Catalogue complet • " + allRecipes.size() + " recettes guidées disponibles");
-        } else {
-            catalogInfo.setText("Sélection intelligente • 25 recettes maximum par pays");
-        }
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if (recipeContainer != null) renderRecipes();
-    }
-
-    private void buildCountryFilters() {
-        countryFilters.removeAllViews();
-        addCountryFilter("all", "🌍 Toutes");
-        Map<String, String> countries = new LinkedHashMap<>();
-        for (Recipe recipe : allRecipes) countries.put(recipe.country, recipe.flag + " " + recipe.countryLabel);
-        for (Map.Entry<String, String> entry : countries.entrySet()) addCountryFilter(entry.getKey(), entry.getValue());
-
-        Button fav = Ui.filterButton(this, "★ Favoris");
-        fav.setOnClickListener(v -> {
-            favoritesOnly = !favoritesOnly;
-            Ui.setFilterSelected(fav, favoritesOnly);
-            renderRecipes();
-        });
-        countryFilters.addView(fav);
-    }
-
-    private void addCountryFilter(final String key, String label) {
-        Button button = Ui.filterButton(this, label);
-        button.setTag(key);
-        button.setOnClickListener(v -> {
-            selectedCountry = key;
-            refreshSelectedCountryButtons();
-            renderRecipes();
-        });
-        countryFilters.addView(button);
-        if ("all".equals(key)) Ui.setFilterSelected(button, true);
-    }
-
-    private void refreshSelectedCountryButtons() {
-        for (int i = 0; i < countryFilters.getChildCount(); i++) {
-            View child = countryFilters.getChildAt(i);
-            if (child instanceof Button && child.getTag() != null) {
-                Ui.setFilterSelected((Button) child, selectedCountry.equals(child.getTag().toString()));
-            }
-        }
-    }
-
-    private void buildCategoryFilters() {
-        categoryFilters.removeAllViews();
-        addCategoryFilter("all", "Tout");
-        addCategoryFilter("plats", "🍲 Plats");
-        addCategoryFilter("entrees", "🥗 Entrées");
-        addCategoryFilter("desserts", "🍰 Desserts");
-    }
-
-    private void addCategoryFilter(final String key, String label) {
-        Button button = Ui.filterButton(this, label);
-        button.setTag(key);
-        button.setOnClickListener(v -> {
-            selectedCategory = key;
-            for (int i = 0; i < categoryFilters.getChildCount(); i++) {
-                View child = categoryFilters.getChildAt(i);
-                if (child instanceof Button) Ui.setFilterSelected((Button) child, selectedCategory.equals(child.getTag()));
-            }
-            renderRecipes();
-        });
-        categoryFilters.addView(button);
-        if ("all".equals(key)) Ui.setFilterSelected(button, true);
-    }
-
-    private void renderRecipes() {
-        recipeContainer.removeAllViews();
-        String query = normalize(search.getText() == null ? "" : search.getText().toString());
-        int shown = 0;
-        Map<String, Integer> countryShown = new HashMap<>();
-
-        for (Recipe recipe : allRecipes) {
-            if (!"all".equals(selectedCountry) && !selectedCountry.equals(recipe.country)) continue;
-            if (!"all".equals(selectedCategory) && !selectedCategory.equals(recipe.category)) continue;
-            if (favoritesOnly && !prefs.getBoolean("fav_" + recipe.id, false)) continue;
-
-            String searchable = normalize(recipe.title + " " + recipe.countryLabel + " " + recipe.categoryLabel + " " + recipe.description);
-            if (!query.isEmpty() && !searchable.contains(query)) continue;
-
-            if (!completeMode && query.isEmpty() && !favoritesOnly) {
-                int n = countryShown.containsKey(recipe.country) ? countryShown.get(recipe.country) : 0;
-                if (n >= 25) continue;
-                countryShown.put(recipe.country, n + 1);
-            }
-
-            addRecipeCard(recipe);
-            shown++;
-        }
-
-        resultCount.setText(shown + (shown > 1 ? " recettes affichées" : " recette affichée"));
-        if (shown == 0) {
-            TextView empty = Ui.text(this, "Aucune recette avec ces filtres. Essaie un autre pays ou une autre catégorie.", 16, false);
-            Ui.margin(empty, 4, 20, 4, 20);
-            recipeContainer.addView(empty);
-        }
-    }
-
-    private void addRecipeCard(final Recipe recipe) {
-        LinearLayout card = new LinearLayout(this);
-        card.setOrientation(LinearLayout.VERTICAL);
-        card.setBackgroundResource(R.drawable.bg_card);
-        card.setPadding(Ui.dp(this, 16), Ui.dp(this, 16), Ui.dp(this, 16), Ui.dp(this, 16));
-        LinearLayout.LayoutParams cardParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        cardParams.setMargins(0, 0, 0, Ui.dp(this, 12));
-        card.setLayoutParams(cardParams);
-
-        TextView overline = Ui.text(this, recipe.flag + " " + recipe.countryLabel + "  •  " + recipe.categoryLabel, 13, true);
-        overline.setTextColor(Color.rgb(201, 71, 45));
-        card.addView(overline);
-
-        TextView name = Ui.text(this, recipe.title, 22, true);
-        Ui.margin(name, 0, 7, 0, 0);
-        card.addView(name);
-
-        String meta = "⏱ " + (recipe.prepMinutes + recipe.cookMinutes) + " min   •   👥 " + recipe.servings + "   •   " + recipe.difficulty;
-        TextView metaView = Ui.text(this, meta, 14, false);
-        metaView.setTextColor(Color.rgb(107, 98, 90));
-        Ui.margin(metaView, 0, 8, 0, 0);
-        card.addView(metaView);
-
-        TextView desc = Ui.text(this, recipe.description, 15, false);
-        Ui.margin(desc, 0, 10, 0, 0);
-        card.addView(desc);
-
-        if (prefs.getInt("progress_" + recipe.id, 0) > 0) {
-            TextView resume = Ui.text(this, "▶ Recette commencée — progression enregistrée", 13, true);
-            resume.setTextColor(Color.rgb(46, 125, 50));
-            Ui.margin(resume, 0, 10, 0, 0);
-            card.addView(resume);
-        }
-
-        card.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, RecipeActivity.class);
-            intent.putExtra("assetPath", recipe.assetPath);
-            startActivity(intent);
-        });
-        recipeContainer.addView(card);
-    }
-
-    private static String normalize(String text) {
-        String normalized = Normalizer.normalize(text, Normalizer.Form.NFD).replaceAll("\\p{M}", "");
-        return normalized.toLowerCase(Locale.ROOT).trim();
-    }
+ private final List<Recipe> allRecipes=new ArrayList<>(); private LinearLayout countryFilters,categoryFilters,recipeContainer; private TextView resultCount,catalogInfo; private EditText search; private Button tabSelection,tabComplete; private String selectedCountry="all",selectedCategory="all"; private boolean favoritesOnly=false,completeMode=false; private SharedPreferences prefs;
+ @Override protected void onCreate(Bundle b){super.onCreate(b);setContentView(R.layout.activity_main);prefs=getSharedPreferences("recipe_prefs",MODE_PRIVATE);countryFilters=findViewById(R.id.countryFilters);categoryFilters=findViewById(R.id.categoryFilters);recipeContainer=findViewById(R.id.recipeContainer);resultCount=findViewById(R.id.resultCount);catalogInfo=findViewById(R.id.catalogInfo);search=findViewById(R.id.search);tabSelection=findViewById(R.id.tabSelection);tabComplete=findViewById(R.id.tabComplete);allRecipes.addAll(RecipeRepository.loadAll(this));buildCountryFilters();buildCategoryFilters();tabSelection.setOnClickListener(v->{completeMode=false;refreshTabs();renderRecipes();});tabComplete.setOnClickListener(v->{completeMode=true;refreshTabs();renderRecipes();});refreshTabs();search.addTextChangedListener(new TextWatcher(){public void beforeTextChanged(CharSequence s,int st,int c,int a){} public void onTextChanged(CharSequence s,int st,int b,int c){renderRecipes();} public void afterTextChanged(Editable e){}});renderRecipes();}
+ private void refreshTabs(){Ui.setFilterSelected(tabSelection,!completeMode);Ui.setFilterSelected(tabComplete,completeMode);catalogInfo.setText(completeMode?"Catalogue complet • "+allRecipes.size()+" recettes guidées":"Les 25 recettes incontournables de chaque pays");}
+ @Override protected void onResume(){super.onResume();if(recipeContainer!=null)renderRecipes();}
+ private void buildCountryFilters(){countryFilters.removeAllViews();addCountryFilter("all","🌍 Toutes");Map<String,String> m=new LinkedHashMap<>();for(Recipe r:allRecipes)m.put(r.country,r.flag+" "+r.countryLabel);for(Map.Entry<String,String>e:m.entrySet())addCountryFilter(e.getKey(),e.getValue());Button fav=Ui.filterButton(this,"♥ Favoris");fav.setOnClickListener(v->{favoritesOnly=!favoritesOnly;Ui.setFilterSelected(fav,favoritesOnly);renderRecipes();});countryFilters.addView(fav);}
+ private void addCountryFilter(String key,String label){Button x=Ui.filterButton(this,label);x.setTag(key);x.setOnClickListener(v->{selectedCountry=key;for(int i=0;i<countryFilters.getChildCount();i++){View c=countryFilters.getChildAt(i);if(c instanceof Button&&c.getTag()!=null)Ui.setFilterSelected((Button)c,selectedCountry.equals(c.getTag().toString()));}renderRecipes();});countryFilters.addView(x);if("all".equals(key))Ui.setFilterSelected(x,true);}
+ private void buildCategoryFilters(){categoryFilters.removeAllViews();addCat("all","Tout");addCat("plats","🍲 Plats");addCat("entrees","🥗 Entrées");addCat("desserts","🍰 Desserts");}
+ private void addCat(String key,String label){Button x=Ui.filterButton(this,label);x.setTag(key);x.setOnClickListener(v->{selectedCategory=key;for(int i=0;i<categoryFilters.getChildCount();i++){View c=categoryFilters.getChildAt(i);if(c instanceof Button)Ui.setFilterSelected((Button)c,selectedCategory.equals(c.getTag()));}renderRecipes();});categoryFilters.addView(x);if("all".equals(key))Ui.setFilterSelected(x,true);}
+ private void renderRecipes(){recipeContainer.removeAllViews();String q=normalize(search.getText()==null?"":search.getText().toString());int shown=0;Map<String,Integer> per=new HashMap<>();for(Recipe r:allRecipes){if(!"all".equals(selectedCountry)&&!selectedCountry.equals(r.country))continue;if(!"all".equals(selectedCategory)&&!selectedCategory.equals(r.category))continue;if(favoritesOnly&&!prefs.getBoolean("fav_"+r.id,false))continue;if(!q.isEmpty()&&!normalize(r.title+" "+r.countryLabel+" "+r.categoryLabel+" "+r.description).contains(q))continue;if(!completeMode&&q.isEmpty()&&!favoritesOnly){int n=per.containsKey(r.country)?per.get(r.country):0;if(n>=25)continue;per.put(r.country,n+1);}addRecipeCard(r);shown++;}resultCount.setText(shown+" recettes affichées");if(shown==0)recipeContainer.addView(Ui.text(this,"Aucune recette avec ces filtres.",16,false));}
+ private void addRecipeCard(Recipe r){LinearLayout card=new LinearLayout(this);card.setOrientation(LinearLayout.VERTICAL);card.setBackgroundResource(R.drawable.bg_card);card.setPadding(Ui.dp(this,10),Ui.dp(this,10),Ui.dp(this,10),Ui.dp(this,14));LinearLayout.LayoutParams cp=new LinearLayout.LayoutParams(-1,-2);cp.setMargins(0,0,0,Ui.dp(this,14));card.setLayoutParams(cp);WebView image=new WebView(this);image.setLayoutParams(new LinearLayout.LayoutParams(-1,Ui.dp(this,190)));image.setBackgroundColor(Color.TRANSPARENT);WebSettings ws=image.getSettings();ws.setJavaScriptEnabled(false);ws.setAllowFileAccess(true);image.setVerticalScrollBarEnabled(false);image.setHorizontalScrollBarEnabled(false);image.loadUrl("file:///android_asset/"+r.imagePath);card.addView(image);TextView over=Ui.text(this,r.flag+"  "+r.countryLabel+"  •  "+r.categoryLabel,13,true);over.setTextColor(Color.rgb(182,91,8));Ui.margin(over,6,10,6,0);card.addView(over);TextView name=Ui.text(this,r.title,22,true);Ui.margin(name,6,5,6,0);card.addView(name);TextView meta=Ui.text(this,"⏱ "+(r.prepMinutes+r.cookMinutes)+" min   •   👥 "+r.servings+"   •   "+r.difficulty,14,false);meta.setTextColor(Color.rgb(107,98,90));Ui.margin(meta,6,7,6,0);card.addView(meta);if(prefs.getBoolean("fav_"+r.id,false)){TextView f=Ui.text(this,"♥ Favori",13,true);f.setTextColor(Color.rgb(210,45,45));Ui.margin(f,6,6,6,0);card.addView(f);}card.setOnClickListener(v->{Intent i=new Intent(this,RecipeActivity.class);i.putExtra("assetPath",r.assetPath);startActivity(i);});recipeContainer.addView(card);}
+ private static String normalize(String t){return Normalizer.normalize(t,Normalizer.Form.NFD).replaceAll("\\p{M}","").toLowerCase(Locale.ROOT).trim();}
 }
